@@ -1,0 +1,217 @@
+{"Changes": [
+
+{"LogName": "物品贴图",
+  "Action": "Load",
+  "Target": "Mods/potato.Twosmallballs/Objects",
+  "FromFile": "Objects/Objects.png"},
+
+{"LogName": "羊绒围巾",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"scarf":
+{"Name": "scarf", 
+  "Displayname": "{{i18n:scarf.name}}",
+  "Description": "{{i18n:scarf.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "汤圆抱枕",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.Pillow":
+{"Name": "potato.Pillow", 
+  "Displayname": "{{i18n:Pillow.name}}",
+  "Description": "{{i18n:Pillow.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "月兔绒",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.rabbithair":
+{"Name": "potato.rabbithair", 
+  "Displayname": "{{i18n:rabbithair.name}}",
+  "Description": "{{i18n:rabbithair.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "曼珠沙华",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.flower":
+{"Name": "potato.flower", 
+  "Displayname": "{{i18n:flower.name}}",
+  "Description": "{{i18n:flower.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "万寿龟壳",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "桃花露",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "御神酒",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "汤圆",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "混汤酒酿元宵",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "大份兔兔包",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "中份兔兔包",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+{"LogName": "小份兔兔包",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+  
+{"LogName": "混汤酒酿元宵",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"potato.物品英文名":
+{"Name": "potato.物品英文名", 
+  "Displayname": "{{i18n:物品英文名.name}}",
+  "Description": "{{i18n:物品英文名.de}}",
+  "Type": "objects/Basic",//蓝底/没蓝底
+  "Category": 0,//标签
+  "Price": 0,//价格
+  "Edibility": -300,//可食性-是不可食用
+  "Texture": "Mods/potato.cxxcp/Objects",//贴图
+  "SpriteIndex": 0}}},//贴图位置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

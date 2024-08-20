@@ -1,0 +1,42 @@
+{"Format": "2.0.0",
+
+"ConfigSchema":{
+
+"汤圆的行走图":
+{"AllowValues": "true, false",
+ "Default": "false",
+ "Description": "汤圆是否使用年味满勺皮肤，默认不使用"}},
+
+"Changes":[
+
+{"LogName": "事件",
+  "Action": "Include",
+  "FromFile": "Data/Events.json,"},
+
+{"LogName": "信件",
+  "Action": "Include",
+  "FromFile": "Data/Mail.json,"},
+
+{"LogName": "地图",
+  "Action": "Include",
+  "FromFile": "Data/Map.json,"},
+
+{"LogName": "角色",
+  "Action": "Include",
+  "FromFile": "Data/NPC.json,"},
+
+{"LogName": "物品",
+  "Action": "Include",
+  "FromFile": "Data/Objects.json,"},
+  
+
+
+
+
+
+  
+
+
+
+
+]}
