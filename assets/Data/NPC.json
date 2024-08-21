@@ -37,9 +37,9 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "map.地图名字",
-  "Tile": {"X": 坐标,"Y": 坐标},
-  "Direction": "上0下2左3右1"}],
+  "Location": "map.Dongtian",
+  "Tile": {"X": 0,"Y": 0},
+  "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
   "Breather": true,
@@ -49,13 +49,7 @@
   "HiddenProfileEmoteFrameCount": 4,
   "HiddenProfileEmoteFrameDuration": 200.0,
   "FestivalVanillaActorIndex": 0,
-  "CustomFields": {},
- "SpouseRoom":
-{"MapAsset": "cxx.SpouseRooms",
- "MapSourceRect":{ "X": 0, "Y": 0, "Width": 6, "Height": 9 }},//起始坐标
- "SpousePatio": 
-{"MapAsset": "cxx.SpousePatios",
- "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }}}}},//起始坐标
+  "CustomFields": {}}}},
 
 {"LogName": "元宵-信息",
   "Action": "EditData",
@@ -94,9 +88,9 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "map.地图名字",
-  "Tile": {"X": 坐标,"Y": 坐标},
-  "Direction": "上0下2左3右1"}],
+  "Location": "map.Dongtian",
+  "Tile": {"X": 1,"Y": 1},
+  "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
   "Breather": true,
@@ -106,332 +100,86 @@
   "HiddenProfileEmoteFrameCount": 4,
   "HiddenProfileEmoteFrameDuration": 200.0,
   "FestivalVanillaActorIndex": 0,
-  "CustomFields": {},
- "SpouseRoom":
-{"MapAsset": "cxx.SpouseRooms",
- "MapSourceRect":{ "X": 0, "Y": 0, "Width": 6, "Height": 9 }},//起始坐标
- "SpousePatio": 
-{"MapAsset": "cxx.SpousePatios",
- "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }}}}},//起始坐标
+  "CustomFields": {}}}},
 
 {"LogName": "汤圆-喜好",
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-{"TangYuan": "{{i18n:TangYuan.LoveGift}}/id/{{i18n:TangYuan.LikeGift}}/id/{{i18n:TangYuan.DisGift}}/id/{{i18n:TangYuan.HateGift}}/id/{{i18n:TangYuan.NeuGift}}/id/"}},
+{"TangYuan": "{{i18n:TangYuan.LoveGift}}/1/{{i18n:TangYuan.LikeGift}}/2/{{i18n:TangYuan.DisGift}}/3/{{i18n:TangYuan.HateGift}}/4/{{i18n:TangYuan.NeuGift}}/5/"}},
 
 {"LogName": "元宵-喜好",
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-{"YuanXiao": "{{i18n:YuanXiao.LoveGift}}/id/{{i18n:YuanXiao.LikeGift}}/id/{{i18n:YuanXiao.DisGift}}/id/{{i18n:YuanXiao.HateGift}}/id/{{i18n:YuanXiao.NeuGift}}/id/"}},
+{"YuanXiao": "{{i18n:YuanXiao.LoveGift}}/1/{{i18n:YuanXiao.LikeGift}}/2/{{i18n:YuanXiao.DisGift}}/3/{{i18n:YuanXiao.HateGift}}/4/{{i18n:YuanXiao.NeuGift}}/5/"}},
 
 {"LogName": "汤圆-行走图",
   "Action": "Load",
   "Target": "Characters/TangYuan",
-  "FromFile": "Sprites/TangYuan.png"},
+  "FromFile": "assets/Sprites/TangYuan.png",
+  "When": 
+ {"TangYuanSprites": "false"}},
 
 {"LogName": "汤圆-皮肤行走图",
   "Action": "Load",
   "Target": "Characters/TangYuan",
-  "FromFile": "Sprites/TangYuan1.png"},
+  "FromFile": "assets/Sprites/TangYuan1.png",
+ "When": 
+{"TangYuanSprites": "true"}},
 
 {"LogName": "元宵-行走图",
   "Action": "Load",
   "Target": "Characters/YuanXiao",
-  "FromFile": "Sprites/YuanXiao.png"},
+  "FromFile": "assets/Sprites/YuanXiao.png"},
 
 {"LogName":"汤圆-肖像",
   "Action": "Load",
   "Target": "Portraits/TangYuan",
-  "FromFile": "Portraits/TangYuan.png"},
+  "FromFile": "assets/Portraits/TangYuan.png",
+  "When": 
+ {"TangYuanSprites": "false"}},
 
 {"LogName":"汤圆-皮肤肖像",
   "Action": "Load",
   "Target": "Portraits/TangYuan",
-  "FromFile": "Portraits/TangYuan1.png"},
+  "FromFile": "assets/Portraits/TangYuan1.png",
+ "When": 
+{"TangYuanSprites": "true"}},
 
 {"LogName":"元宵-肖像",
   "Action": "Load",
   "Target": "Portraits/YuanXiao",
-  "FromFile": "Portraits/YuanXiao.png"},
+  "FromFile": "assets/Portraits/YuanXiao.png"},
 
-{"LogName": "Load Empty",
-  "Action": "Load",
-  "Target": "Characters/Schedules/TangYuan,Characters/Dialogue/YuanXiao",
-  "FromFile": "Data/Empty.json"},
+//{"LogName": "行程-Empty",  "Action": "Load",  "Target": "Characters/Schedules/TangYuan,Characters/Dialogue/YuanXiao",  "FromFile": "assets/Data/Empty.json"},
 
-{"LogName":"行程",
-  "Action": "Include",
-  "FromFile":"Data/Schedules.json"},
+//{"LogName":"汤圆-行程",  "Action": "Include",  "FromFile":"assets/Data/TangYuanSchedules.json,assets/Data/YuanXiaoSchedules.json"},
 
-{"LogName": "Load Empty",
+{"LogName": "对话-Empty",
   "Action": "Load",
   "Target": "Characters/Dialogue/TangYuan,Characters/Dialogue/YuanXiao",
-  "FromFile": "Data/Empty.json"},
+  "FromFile": "assets/Data/Empty.json"},
 
-{"LogName": "汤圆-对话",
+{"LogName": "对话文件",
   "Action": "Include",
-  "FromFile": "Data/TangYuanDialogue.json,"},
-
-{"LogName": "元宵-对话",
-  "Action": "Include",
-  "FromFile": "Data/YuanXiaoDialogue.json,"},
+  "FromFile": "assets/Data/TangYuanDialogue.json,assets/Data/YuanXiaoDialogue.json,"},
 
 {"LogName": "动作",
   "Action": "EditData",
   "Target": "Data/animationDescriptions",
   "Entries":
-{"T1": "19/19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18 18/18"}},
+{"sleep": "19/18/18",
+ "LaiBed": "19/18/18"}},
 
 {"LogName":"动作对话",
   "Action": "EditData",
   "Target": "Strings/animationDescriptions",
   "Entries": 
-{"T1": "{{i18n:Tangf.1}}"}},
+{"sleep": "{{i18n:sleep}}",
+ "LaiBed": "{{i18n:LaiBed}}"}},
 
-{"LogName": "汤圆-电影零食",
-  "Action": "EditData",
-  "Target": "Data/ConcessionTastes",
-  "Entries": 
-{"TangYuan": 
-{"Name": "TangYuan",
-  "LovedTags": [ 最爱的 ],
-  "LikedTags": [ 喜欢的 ],
-  "DislikedTags": [ 讨厌的 ]}}},
-
-{"LogName": "元宵-电影零食",
-  "Action": "EditData",
-  "Target": "Data/ConcessionTastes",
-  "Entries": 
-{"YuanXiao": 
-{"Name": "YuanXiao",
-  "LovedTags": [ 最爱的 ],
-  "LikedTags": [ 喜欢的 ],
-  "DislikedTags": [ 讨厌的 ]}}},
-
-{"LogName": "电影对话",
-  "Action": "EditData",
-  "Target": "Data/MoviesReactions",
-  "Entries": 
-{"TangYuan": 
-{"NPCName": "TangYuan",
- "Reactions": [
-{"LogName": "谁的电影对话关于小树苗",
-  "Tag": "spring_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie2}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie2}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie2}}"}},
-"ID": "reaction_2"},
-
-{"LogName": "谁的电影对话关于草原之王",
-  "Tag": "summer_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie3}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie3}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie3}}"}},
-"ID": "reaction_3"},
-
-{"LogName": "谁的电影对话关于神秘事迹",
-  "Tag": "fall_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie4}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie4}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie4}}"}},
-"ID": "reaction_4"},
-
-{"LogName":"谁的电影对话关于牧场奇迹",
-  "Tag": "winter_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie5}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie5}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie5}}"}},
-"ID": "reaction_5"},
-
-{"LogName":"谁的电影对话关于探索世界",
-  "Tag": "spring_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie6}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie6}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie6}}"}},
-"ID": "reaction_6"},
-
-{"LogName": "谁的电影对话关于温不斯",
-  "Tag": "summer_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie7}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie7}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie7}}"}},
-"ID": "reaction_7"},
-
-{"LogName": "谁的电影对话关于雨中嚎叫",
-  "Tag": "fall_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie8}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie8}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie8}}"}},
-"ID": "reaction_8"},
-
-{"LogName": "谁的电影对话关于特快列车",
-  "Tag": "winter_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie9}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie9}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie9}}"}},
-"ID": "reaction_9"}]}}},
-
-{"LogName": "电影对话",
-  "Action": "EditData",
-  "Target": "Data/MoviesReactions",
-  "Entries": 
-{"YuanXiao": 
-{"NPCName": "YuanXiao",
- "Reactions": [
-{"LogName": "谁的电影对话关于小树苗",
-  "Tag": "spring_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie2}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie2}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie2}}"}},
-"ID": "reaction_2"},
-
-{"LogName": "谁的电影对话关于草原之王",
-  "Tag": "summer_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie3}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie3}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie3}}"}},
-"ID": "reaction_3"},
-
-{"LogName": "谁的电影对话关于神秘事迹",
-  "Tag": "fall_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie4}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie4}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie4}}"}},
-"ID": "reaction_4"},
-
-{"LogName":"谁的电影对话关于牧场奇迹",
-  "Tag": "winter_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie5}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie5}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie5}}"}},
-"ID": "reaction_5"},
-
-{"LogName":"谁的电影对话关于探索世界",
-  "Tag": "spring_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie6}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie6}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie6}}"}},
-"ID": "reaction_6"},
-
-{"LogName": "谁的电影对话关于温不斯",
-  "Tag": "summer_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie7}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie7}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie7}}"}},
-"ID": "reaction_7"},
-
-{"LogName": "谁的电影对话关于雨中嚎叫",
-  "Tag": "fall_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie8}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie8}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie8}}"}},
-"ID": "reaction_8"},
-
-{"LogName": "谁的电影对话关于特快列车",
-  "Tag": "winter_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
-  "Whitelist": [],
-"SpecialResponses": {
-"BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.BeforeMovie9}}"},
-"DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.DuringMovie9}}"},
-"AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:YuanXiao.AfterMovie9}}"}},
-"ID": "reaction_9"}]}}},
-
+//电影零食 对话
 
 
 

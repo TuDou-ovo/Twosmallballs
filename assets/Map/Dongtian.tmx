@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="1">
+ <properties>
+  <property name="Music" value="Guiyuantianxi"/>
+  <property name="Warp" value="7 17 Mountain 10 12"/>
+ </properties>
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <layer id="1" name="Back" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxzY2RgcAdiDyB2oxE7HogTgDiRhuwKIK4E4ioasmkVPqNhNRpWo2E1GlajYTUaVpSyAYQ8uvA=
+  </data>
+ </layer>
+ <layer id="16" name="Back1" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGHigbaAcMMgAAhTAAdw==
+  </data>
+ </layer>
+ <layer id="7" name="Front" width="25" height="20">
+  <properties>
+   <property name="Warp" value="17 19 cxxmap.RES5 70 39"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="11" name="AlwaysFront" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer id="13" name="Paths" width="25" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+ <objectgroup id="12" name="AlwaysFront"/>
+ <objectgroup id="14" name="Paths"/>
+</map>

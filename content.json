@@ -2,32 +2,40 @@
 
 "ConfigSchema":{
 
-"汤圆的行走图":
+"TangYuanSprites":
 {"AllowValues": "true, false",
  "Default": "false",
- "Description": "汤圆是否使用年味满勺皮肤，默认不使用"}},
+ "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}},
 
 "Changes":[
 
+{"LogName": "CJB",
+  "Action": "Include",
+  "FromFile": "assets/Data/CJB.json,"},
+
 {"LogName": "事件",
   "Action": "Include",
-  "FromFile": "Data/Events.json,"},
+  "FromFile": "assets/Data/Events.json,"},
 
 {"LogName": "信件",
   "Action": "Include",
-  "FromFile": "Data/Mail.json,"},
+  "FromFile": "assets/Data/Mail.json,"},
 
 {"LogName": "地图",
   "Action": "Include",
-  "FromFile": "Data/Map.json,"},
+  "FromFile": "assets/Data/Map.json,"},
+
+{"LogName": "音乐",
+  "Action": "Include",
+  "FromFile": "assets/Data/Music.json,"},
 
 {"LogName": "角色",
   "Action": "Include",
-  "FromFile": "Data/NPC.json,"},
+  "FromFile": "assets/Data/NPC.json,"},
 
 {"LogName": "物品",
   "Action": "Include",
-  "FromFile": "Data/Objects.json,"},
+  "FromFile": "assets/Data/Objects.json,"},
   
 
 

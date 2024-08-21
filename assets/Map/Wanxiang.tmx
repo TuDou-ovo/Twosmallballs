@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <layer id="1" name="Back" width="3" height="4">
+  <properties>
+   <property name="NPCWarp" value="1 2 potato.cxxcp.Backwoods.cave 7 14"/>
+   <property name="Warp" value="1 2 potato.cxxcp.Backwoods.cave 7 14"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJy7xcDAcAsHngTEk6Hs1UC8BogB/aAJTQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFlUBcBWVPAuLJUPZqIF4DxAA5SANw
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANAAAAMAAB
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Front2" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANAAAAMAAB
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front2"/>
+</map>
