@@ -1,0 +1,304 @@
+{"Changes": [
+
+{"LogName": "肖像画贴图位置",
+ "Action": "Load",
+ "Target": "Mods/Twosmallballs.Twosmallballs/PortraitFrames",
+ "FromFile": "assets/Objects/PortraitFrames.png"},
+
+{"LogName": "角色肖像画",
+  "Action": "EditData",
+  "Target": "Data/Furniture",
+  "Entries": 
+{"TangYuan.Portrait": "TangYuan.Portrait/painting/2 2/2 2/1/999/-1/{{i18n:TangYuan.Portrait}}/0/Mods\\Twosmallballs.Twosmallballs\\PortraitFrames",
+ "YuanXiao.Portrait": "YuanXiao.Portrait/painting/2 2/2 2/1/999/-1/{{i18n:YuanXiao.Portrait}}/2/Mods\\Twosmallballs.Twosmallballs\\PortraitFrames"}},
+
+
+{"LogName": "料理配方",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "Entries":
+{"TangYuan.CookingRecipes": "245 2 247 1/10 10/TangYuan.CookingRecipes/default/{{i18n:TangYuan.CookingRecipes.name}}",
+ "YuanXiao.CookingRecipes": "245 2 340 1/10 10/YuanXiao.CookingRecipes/default/{{i18n:YuanXiao.CookingRecipes.name}}",
+ "Baozi.CookingRecipes": "Twosmallballs.rabbithair 1 245 2/10 10/Baozi.CookingRecipes/default/{{i18n:Baozi.CookingRecipes.name}}"}},
+
+
+{"LogName": "物品贴图",
+  "Action": "Load",
+  "Target": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "FromFile": "assets/Objects/Objects.png"},
+
+{"LogName": "汤圆-菜品",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"TangYuan.Objects":
+{"Name": "TangYuan.Objects", 
+  "Displayname": "{{i18n:TangYuan.name}}",
+  "Description": "{{i18n:TangYuan.Objects.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 520,
+  "Edibility": 50,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,
+  "IsDebuff": false,
+  "GlowColor": null,
+ "CustomAttributes": 
+{"FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 1,
+  "ForagingLevel": 0,
+  "MaxStamina": 30,
+  "MagneticRadius": 0,
+  "Speed": 0,
+  "Defense": 1,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 0}}},
+
+{"LogName": "元宵-菜品",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"YuanXiao.Objects":
+{"Name": "YuanXiao.Objects", 
+  "Displayname": "{{i18n:YuanXiao.name}}",
+  "Description": "{{i18n:YuanXiao.Objects.de}}",
+  "Type": "objects",
+  "Category": -7,
+  "Price": 520,
+  "Edibility": 50,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 600,
+  "IsDebuff": false,
+  "GlowColor": null,
+ "CustomAttributes": 
+{"FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 1,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": 1,
+  "Speed": 1,
+  "Defense": 0,
+  "Attack": 1},
+  "CustomFields": null}],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 1}}},
+
+{"LogName": "兔兔包",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.Baozi":
+{"Name": "Twosmallballs.Baozi", 
+  "Displayname": "{{i18n:Baozi.name}}",
+  "Description": "{{i18n:Baozi.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 500,
+  "Edibility": 100,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 0,
+  "IsDebuff": false,
+  "GlowColor": null,
+ "CustomAttributes": 
+{"FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 3,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": 0,
+  "Speed": 0,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 2}}},
+  
+{"LogName": "羊绒围巾",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.scarf":
+{"Name": "Twosmallballs.scarf", 
+  "Displayname": "{{i18n:scarf.name}}",
+  "Description": "{{i18n:scarf.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 5200,
+  "Edibility": -300,
+//  "ContextTags": ["propose_roommate_TangYuan"],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 3}}},
+
+{"LogName": "汤圆抱枕",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.Pillow":
+{"Name": "Twosmallballs.Pillow", 
+  "Displayname": "{{i18n:Pillow.name}}",
+  "Description": "{{i18n:Pillow.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 5200,
+  "Edibility": -300,
+//  "ContextTags": ["propose_roommate_YuanXiao"],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 4}}},
+
+{"LogName": "月兔绒",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.rabbithair":
+{"Name": "Twosmallballs.rabbithair", 
+  "Displayname": "{{i18n:rabbithair.name}}",
+  "Description": "{{i18n:rabbithair.de}}",
+  "Type": "Basic",
+  "Category": -6,
+  "Price": 500,
+  "Edibility": -300,
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 5}}},
+
+{"LogName": "曼珠沙华",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.flower":
+{"Name": "Twosmallballs.flower", 
+  "Displayname": "{{i18n:flower.name}}",
+  "Description": "{{i18n:flower.de}}",
+  "Type": "Basic",
+  "Category": -80,
+  "Price": 500,
+  "Edibility": -300,
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 6}}},
+
+{"LogName": "万寿龟壳",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.turtleshell":
+{"Name": "Twosmallballs.turtleshell", 
+  "Displayname": "{{i18n:turtleshell.name}}",
+  "Description": "{{i18n:turtleshell.de}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 500,
+  "Edibility": -300,
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 7}}},
+
+{"LogName": "桃花露",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.soup":
+{"Name": "Twosmallballs.soup", 
+  "Displayname": "{{i18n:soup.name}}",
+  "Description": "{{i18n:soup.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 200,
+  "Edibility": 50,
+  "IsDrink": true,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 400,
+  "IsDebuff": false,
+  "GlowColor": null,
+ "CustomAttributes": 
+{"FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 0,
+  "ForagingLevel": 0,
+  "MaxStamina": 10,
+  "MagneticRadius": 0,
+  "Speed": 0,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 8}}},
+
+{"LogName": "御神酒",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.wine":
+{"Name": "Twosmallballs.wine", 
+  "Displayname": "{{i18n:wine.name}}",
+  "Description": "{{i18n:wine.de}}",
+  "Type": "Basic",
+  "Category": -7,
+  "Price": 200,
+  "Edibility": 50,
+  "IsDrink": false,
+  "Buffs": [
+{"Id": "Food",
+  "BuffId": null,
+  "Duration": 400,
+  "IsDebuff": false,
+  "GlowColor": null,
+ "CustomAttributes": 
+{"FarmingLevel": 0,
+  "FishingLevel": 0,
+  "MiningLevel": 0,
+  "LuckLevel": 2,
+  "ForagingLevel": 0,
+  "MaxStamina": 0,
+  "MagneticRadius": 0,
+  "Speed": 0,
+  "Defense": 0,
+  "Attack": 0},
+  "CustomFields": null}],
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 9}}},
+  
+{"LogName": "贝币",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.shell":
+{"Name": "Twosmallballs.shell", 
+  "Displayname": "{{i18n:shell.name}}",
+  "Description": "{{i18n:shell.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 2000,
+  "Edibility": -300,
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 10}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+]}

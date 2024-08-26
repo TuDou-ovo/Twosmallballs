@@ -1,0 +1,64 @@
+{"Format": "2.0.0",
+
+//"ConfigSchema":{
+
+//"TangYuanSprites":
+//{"AllowValues": "true, false",
+// "Default": "false",
+// "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}},
+
+"Changes":[
+
+{"LogName": "动物",
+  "Action": "Include",
+  "FromFile": "assets/Data/Animals.json,"},
+
+{"LogName": "CJB",
+  "Action": "Include",
+  "FromFile": "assets/Data/CJB.json,"},
+
+{"LogName": "角色",
+  "Action": "Include",
+  "FromFile": "assets/Data/Data.json,"},
+
+{"LogName": "事件",
+  "Action": "Include",
+  "FromFile": "assets/Data/Events.json,"},
+
+{"LogName": "节日",
+  "Action": "Include",
+  "FromFile": "assets/Data/Festivals.json,"},
+
+{"LogName": "信件",
+  "Action": "Include",
+  "FromFile": "assets/Data/Mail.json,"},
+
+{"LogName": "地图",
+  "Action": "Include",
+  "FromFile": "assets/Data/Map.json,"},
+
+{"LogName": "物品",
+  "Action": "Include",
+  "FromFile": "assets/Data/Objects.json,"},
+
+{"LogName": "商店",
+  "Action": "Include",
+  "FromFile": "assets/Data/Shop.json,"},
+  
+{"LogName": "背景音乐-归园田兮",
+  "Action": "EditData",
+  "Target": "Data/AudioChanges",
+  "Entries": 
+{"Guiyuantianxi": 
+{"ID": "Guiyuantianxi",
+ "Category": "Music",
+ "FilePaths": ["{{AbsoluteFilePath:assets/Music/Guiyuantianxi.ogg}}"],
+ "StreamedVorbis": false,
+ "Looped": true}}}],
+
+//"RepeatEvents": [
+//	656070921,//汤圆
+//	656070922,//元宵]
+
+
+}

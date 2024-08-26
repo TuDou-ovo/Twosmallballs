@@ -1,0 +1,29 @@
+{"Changes": [
+{"Action": "EditData",
+ "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+ "Entries": 
+{"{{ModId}}_cjb": 
+{"Id": "{{ModId}}_cjb",
+ "DisplayName": "{{i18n:cjb}}"}}},
+
+{"Action": "EditData",
+ "Target": "Mods/CJBok.CheatsMenu/Warps",
+ "Entries": 
+{"{{ModId}}_Wanxiang": 
+{"Id": "{{ModId}}_Wanxiang",
+ "SectionId": "{{ModId}}_cjb",
+ "DisplayName": "{{i18n:cjb1}}",
+ "Location": "Mountain",
+ "Tile": "1, 1"},
+
+ "{{ModId}}_Dongtian": 
+{"Id": "{{ModId}}_Dongtian",
+ "SectionId": "{{ModId}}_cjb",
+ "DisplayName": "{{i18n:cjb2}}",
+ "Location": "Twosmallballsmap.Dongtian",
+ "Tile": "1, 1"}
+
+
+
+}}]}
+

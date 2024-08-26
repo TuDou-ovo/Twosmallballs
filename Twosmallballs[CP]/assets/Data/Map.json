@@ -1,0 +1,49 @@
+{"Changes":[
+
+
+  
+{"LogName": "替换山顶 万象阵",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+ "FromFile": "assets/Map/Wanxiang.tmx",
+ "ToArea":{"X":10,"Y":8,"Width":3,"Height":4},
+ "Update": "OnLocationChange"},
+    
+
+{"LogName": "加载地图 洞天",
+ "Action": "Load",
+ "Target": "Maps/Twosmallballsmap.Dongtian",
+ "FromFile": "assets/Map/Dongtian.tmx"},
+
+
+{"LogName":"万象阵入口 传送点",
+  "Action":"EditMap",
+  "Target":"Maps/Mountain",
+  "AddWarps":["10 10 Twosmallballsmap.Dongtian 7 14"],
+  "MapProperties":
+{"NPCWarp":"10 10 Twosmallballsmap.Dongtian 7 14"}},
+
+
+{"LogName":"洞天 传送点",
+  "Action":"EditData",
+  "Target":"Data/Locations",
+  "Entries":
+{"Twosmallballsmap.Dongtian":
+{"CreateOnLoad":
+{"MapPath":"Maps/Twosmallballsmap.Dongtian"},
+  "FormerLocationNames":["Custom_Twosmallballsmap.Dongtian"]}},
+  "MapProperties":
+{"NPCWarp":"7 17 Mountain 10 12"}},
+
+
+{"LongName": "洞天 交互点",
+  "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "Entries":
+
+{"Dongtian.1":"{{i18n:Dongtian.1}}",
+ "Dongtian.2":"{{i18n:Dongtian.2}}",}}
+
+
+
+]}
