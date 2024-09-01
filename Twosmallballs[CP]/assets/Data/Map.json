@@ -6,7 +6,7 @@
  "Action": "EditMap",
  "Target": "Maps/Mountain",
  "FromFile": "assets/Map/Wanxiang.tmx",
- "ToArea":{"X":10,"Y":8,"Width":3,"Height":4},
+ "ToArea":{"X":31,"Y":25,"Width":3,"Height":4},
  "Update": "OnLocationChange"},
     
 
@@ -14,6 +14,12 @@
  "Action": "Load",
  "Target": "Maps/Twosmallballsmap.Dongtian",
  "FromFile": "assets/Map/Dongtian.tmx"},
+
+
+{"LogName": "加载地图 CG",
+ "Action": "Load",
+ "Target": "Maps/Twosmallballsmap.CG",
+ "FromFile": "assets/Map/CG.tmx"},
 
 
 {"LogName":"万象阵入口 传送点",

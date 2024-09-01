@@ -1,11 +1,11 @@
 {"Changes": [
 
-{"LogName": "肖像画贴图位置",
+{"LogName": "肖像画贴图",
  "Action": "Load",
  "Target": "Mods/Twosmallballs.Twosmallballs/PortraitFrames",
  "FromFile": "assets/Objects/PortraitFrames.png"},
 
-{"LogName": "角色肖像画",
+{"LogName": "肖像画",
   "Action": "EditData",
   "Target": "Data/Furniture",
   "Entries": 
@@ -138,7 +138,7 @@
   "Displayname": "{{i18n:scarf.name}}",
   "Description": "{{i18n:scarf.de}}",
   "Type": "objects",
-  "Category": 0,
+  "Category": -9,
   "Price": 5200,
   "Edibility": -300,
 //  "ContextTags": ["propose_roommate_TangYuan"],
@@ -154,7 +154,7 @@
   "Displayname": "{{i18n:Pillow.name}}",
   "Description": "{{i18n:Pillow.de}}",
   "Type": "objects",
-  "Category": 0,
+  "Category": -9,
   "Price": 5200,
   "Edibility": -300,
 //  "ContextTags": ["propose_roommate_YuanXiao"],
@@ -240,7 +240,7 @@
   "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
   "SpriteIndex": 8}}},
 
-{"LogName": "御神酒",
+  {"LogName": "御神酒",
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
@@ -287,12 +287,26 @@
   "Price": 2000,
   "Edibility": -300,
   "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
-  "SpriteIndex": 10}}}
+  "SpriteIndex": 10}}},
 
 
-
-
-
+{"LogName": "酿酒",
+ "Action": "EditData",
+ "Target": "Data/Machines",
+ "TargetField": ["(BC)163","OutputRules"],
+ "Entries": 
+{"Twosmallballs.wine": 
+{"Id": "{{ModId}}_wine",
+  "Triggers": [
+{"Id": "{{ModId}}_wineTrigger",
+ "Trigger": "ItemPlacedInMachine",
+ "RequiredItemId": "(O)271",
+ "RequiredCount": 1}],
+  "OutputItem": [
+{"Id": "{{ModId}}_wineGiver",
+ "ItemId": "(O)Twosmallballs.wine",
+ "CopyQuality": true}],
+"MinutesUntilReady": 180}}}
 
 
 

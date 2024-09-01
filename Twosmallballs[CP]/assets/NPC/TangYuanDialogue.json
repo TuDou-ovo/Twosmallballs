@@ -25,16 +25,16 @@
 "AcceptGift_(O)StardropTea": "{{i18n:TangYuan_StardropTea}}",//星茶
 "AcceptGift_(O)物品":"{{i18n:TangYuan_物品}}",
 
-"Resort": "{{i18n:TangYuan_Resort}}",//姜岛
-"Resort_Bar": "{{i18n:TangYuan_Resort_Bar}}",//酒吧
-"Resort_Chair": "{{i18n:TangYuan_Resort_Chair}}",//椅子
-"Resort_Dance": "{{i18n:TangYuan_Resort_Dance}}",//跳舞
-"Resort_Entering": "{{i18n:TangYuan_Resort_Entering}}",//上船
-"Resort_Leaving": "{{i18n:TangYuan_Resort_Leaving}}",//回家
-"Resort_Shore": "{{i18n:TangYuan_Resort_Shore}}",//海边
-"Resort_Towel": "{{i18n:TangYuan_Resort_Towel}}",//毛巾
-"Resort_Umbrella": "{{i18n:TangYuan_Resort_Umbrella}}",//太阳伞
-"Resort_Wander": "{{i18n:TangYuan_Resort_Wander}}",//逛街
+//"Resort": "{{i18n:TangYuan_Resort}}",//姜岛
+//"Resort_Bar": "{{i18n:TangYuan_Resort_Bar}}",//酒吧
+//"Resort_Chair": "{{i18n:TangYuan_Resort_Chair}}",//椅子
+//"Resort_Dance": "{{i18n:TangYuan_Resort_Dance}}",//跳舞
+//"Resort_Entering": "{{i18n:TangYuan_Resort_Entering}}",//上船
+//"Resort_Leaving": "{{i18n:TangYuan_Resort_Leaving}}",//回家
+//"Resort_Shore": "{{i18n:TangYuan_Resort_Shore}}",//海边
+//"Resort_Towel": "{{i18n:TangYuan_Resort_Towel}}",//毛巾
+//"Resort_Umbrella": "{{i18n:TangYuan_Resort_Umbrella}}",//太阳伞
+//"Resort_Wander": "{{i18n:TangYuan_Resort_Wander}}",//逛街
 
 "spring_1_2": "{{i18n:TangYuan_spring_1_2}}",
 "spring_12":"{{i18n:TangYuan_spring_12}}",

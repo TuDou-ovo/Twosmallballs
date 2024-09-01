@@ -23,7 +23,7 @@
         "MinimumSpawnsPerDay": 4,
         "MaximumSpawnsPerDay": 8,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
@@ -69,7 +69,7 @@
         "MinimumSpawnsPerDay": 4,
         "MaximumSpawnsPerDay": 8,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],

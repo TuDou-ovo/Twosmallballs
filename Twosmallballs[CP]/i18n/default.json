@@ -1,8 +1,19 @@
 {
-    //老天保佑我不ooc!!妈粉视角个人滤镜太重真的好担忧
 //配置菜单 "":"",{{i18n:}}
-"Config.TangYuanSprites.name":"汤圆的行走图",
-"Config.TangYuanSprites.Description":"汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用",
+"config.section.Birthday.name": "生日",
+"config.section.Birthday.description": "生日事件配置",
+
+"config.BirthdaySeason.name": "生日季节",
+"config.BirthdaySeason.description": "生日事件发生的季节",
+"config.BirthdaySeason.values.spring": "春季",
+"config.BirthdaySeason.values.summer": "夏季",
+"config.BirthdaySeason.values.fall": "秋季",
+"config.BirthdaySeason.values.winter": "冬季",
+"config.BirthdayDay.name": "生日日期",
+"config.BirthdayDay.description": "生日事件发生的日期",
+
+"config.TangYuanSprites.name":"汤圆的行走图",
+"config.TangYuanSprites.Description":"汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用",
 
 //动物
 "rabbitBaby":"月兔",
@@ -22,7 +33,7 @@
 //汤圆礼物
 "TangYuan.LoveGift":"谢，谢谢——$1#$b#呜，咬到舌头了$2",
 "TangYuan.LikeGift":"这，这是给我的吗？谢谢...$4",
-"TangYuan.NeuGift":"是，是礼物？谢谢大哥哥$2^是，是礼物？谢谢大姐姐$2",
+"TangYuan.NeuGift":"是，是礼物？谢谢大哥哥$1^是，是礼物？谢谢大姐姐$1",
 "TangYuan.DisGift":"这，这是什么？给我的？...谢谢$3",
 "TangYuan.HateGift":"唔...这是什么呀$3",
 
@@ -42,131 +53,261 @@
 "YuanXiao_bomb": "%元宵正在很认真的研究武器",
 
 //汤圆电影
-"TangYuan.BeforeMovie9":"",
-"TangYuan.DuringMovie9":"",
-"TangYuan.AfterMovie9":"",
-"TangYuan.BeforeMovie8":"",
-"TangYuan.DuringMovie8":"",
-"TangYuan.AfterMovie8":"",
-"TangYuan.BeforeMovie7":"",
-"TangYuan.DuringMovie7":"",
-"TangYuan.AfterMovie7":"",
-"TangYuan.BeforeMovie6":"",
-"TangYuan.DuringMovie6":"",
-"TangYuan.AfterMovie6":"",
-"TangYuan.BeforeMovie5":"",
-"TangYuan.DuringMovie5":"",
-"TangYuan.AfterMovie5":"",
-"TangYuan.BeforeMovie4":"",
-"TangYuan.DuringMovie4":"",
-"TangYuan.AfterMovie4":"",
-"TangYuan.BeforeMovie3":"",
-"TangYuan.DuringMovie3":"",
-"TangYuan.AfterMovie3":"",
-"TangYuan.BeforeMovie2":"",
-"TangYuan.DuringMovie2":"",
-"TangYuan.AfterMovie2":"",
+"TangYuan.BeforeMovie_hi":"谢，谢谢大哥哥带我来看电影呀！$1^谢，谢谢大姐姐带我来看电影呀！$1",
+"TangYuan.DuringMovie_no":"汤圆看起来不是很感兴趣",
+"TangYuan.AfterMovie_no":"唔...大哥哥，我有点困了$7",
+
+"TangYuan.BeforeMovie8":"大，大哥哥...这个电影真的好看吗？$3^大，大姐姐...这个电影真的好看吗？$3",
+"TangYuan.DuringMovie8":"汤圆快要哭出来了...",
+"TangYuan.AfterMovie8":"呜呜...$2",
+
+"TangYuan.DuringMovie7":"汤圆看起来很开心",
+"TangYuan.AfterMovie7":"温不斯好可爱呀$1",
+
+"TangYuan.BeforeMovie_no":"大哥哥，今，今天在放什么电影呀？$3^大姐姐，今，今天在放什么电影呀？$3",
+
+"TangYuan.DuringMovie5":"汤圆对故事情节很感兴趣",
+"TangYuan.AfterMovie5":"一家人在一起，团团圆圆的真好呀！$1",
+
+"TangYuan.DuringMovie2":"汤圆似乎觉得故事很有趣",
+"TangYuan.AfterMovie2":"好厉害的小树苗$3",
+
 //元宵电影
-"YuanXiao.BeforeMovie9":"",
-"YuanXiao.DuringMovie9":"",
-"YuanXiao.AfterMovie9":"",
-"YuanXiao.BeforeMovie8":"",
-"YuanXiao.DuringMovie8":"",
-"YuanXiao.AfterMovie8":"",
-"YuanXiao.BeforeMovie7":"",
-"YuanXiao.DuringMovie7":"",
-"YuanXiao.AfterMovie7":"",
-"YuanXiao.BeforeMovie6":"",
-"YuanXiao.DuringMovie6":"",
-"YuanXiao.AfterMovie6":"",
-"YuanXiao.BeforeMovie5":"",
-"YuanXiao.DuringMovie5":"",
-"YuanXiao.AfterMovie5":"",
-"YuanXiao.BeforeMovie4":"",
-"YuanXiao.DuringMovie4":"",
-"YuanXiao.AfterMovie4":"",
-"YuanXiao.BeforeMovie3":"",
-"YuanXiao.DuringMovie3":"",
-"YuanXiao.AfterMovie3":"",
-"YuanXiao.BeforeMovie2":"",
-"YuanXiao.DuringMovie2":"",
-"YuanXiao.AfterMovie2":"",
+"YuanXiao.AfterMovie8":"我，我才不害怕呢！",
+
+"YuanXiao.BeforeMovie_no":"今天在放什么电影啊？",
+"YuanXiao.DuringMovie_no":"元宵似乎不太感兴趣",
+"YuanXiao.AfterMovie_yes":"谢，谢谢你请我看电影！$10",
+
+"YuanXiao.BeforeMovie3":"草原之王？听起来好厉害...$3",
+"YuanXiao.AfterMovie3":"我也能把坏人打跑保护你的！$7",
+
+"YuanXiao.BeforeMovie_hi":"才不是我想看电影呢，是，是你邀请我才来的哦!$6",
+"YuanXiao.DuringMovie_yes":"元宵很专注的在看电影",
+"YuanXiao.AfterMovie2":"我也一定会成长为能保护其他人的成熟孩子的！$7",
+
 //事件 
+//生日 前篇 单数
+"11500001.1":"少主！",
+"11500001.2":"怎么啦？",
+"11500001.3":"是，是这样的...$4",
+"11500001.4":"今天是你的生日，所以我和汤圆给你准备了生日会！$7",
+"11500001.5":"大哥哥一定要来呀！$1^大姐姐一定要来呀！$1",
+"11500001.6":"对啦，我们给你准备了礼物！来的时候记得口袋里留出两个空位！$6",
+"11500001.7":"是，是的！我们在洞天等大哥哥！$1^是，是的！我们在洞天等大姐姐！$1",
+"11500001.8":"再见！",
+
+//生日 后篇 单数 元宵主
+"11500002.1":"@，你来啦！祝你生日快乐！$7",
+"11500002.2":"大哥哥，生日快乐！$1^大姐姐，生日快乐！$1",
+"11500002.3":"你们做了看起来很美味的蛋糕呢！",
+"11500002.4":"是，是的！我和元宵一起做的！$4",
+"11500002.5":"......",
+"11500002.6":"@你知道的，我既不喜欢糖果，也不喜欢点心$3#$b#所以，所以这种超多奶油超多果酱超多砂糖的东西，也不是的我的菜$3#$b#好孩子该吃蔬果这种营养丰富的食物，不该吃这种——$9",
+"11500002.7":"但你注意到了元宵的目光总是瞟着桌上的蛋糕",
+"11500002.8":"竟然这样说我的蛋糕...",
+"11500002.9":"那我来喂你怎么样？啊——",
+
+"11500002_1":"@，你别难过！对，对不起，其实...其实我...$11#$b#......$10#$b#唔，懂事的孩子，被人邀请就该礼貌的感谢，是这样吧？$4#$b#那...谢，谢谢你请我吃你的生日蛋糕！$4",
+"11500002_2":"啊~$7#$b#不，不对，差一丁点就...$9#$b#我要给汤圆做榜样，不能让大人喂东西吃，我，我自己来！#$b#",
+
+"11500002.10":"嚼嚼...好甜，好好吃——$4#$b#啊，我是出于礼貌才这样说的，才不是我喜欢，真的...$10",
+"11500002.12":"嘿嘿...$1",
+"11500002.13":"汤圆怎么笑了？",
+"11500002.14":"啊...是觉得和这样的元宵和少主一起生活，很幸福呢！$1",
+"11500002.15":"！$6#$b#对，对了，还有这个$7",
+"11500002.16":"元宵噔噔噔的跑去拿来了什么东西",
+"11500002.17":"@，看这个，我给你准备的礼物！酒酿RPG!$7#$b#把它带在身边，它可以帮你把坏带统统打翻$7#$b#来，我给你示范一下！$7",
+"11500002.18":"元宵扳动武器，朝窗外射出一枚炮弹",
+"11500002.19":"哇...$3",
+"11500002.20":"嘿嘿，用这种方式再说一次，会令人更加惊喜吧！[YuanXiao.Portrait][TangYuan.Portrait]$7",
+
+//生日 前篇 偶数
+"11500003.1":"@",
+"11500003.2":"怎么啦？",
+"11500003.3":"今天是@的生日！$1",
+"11500003.4":"所，所以我和元宵给大哥哥准备了生日会$4^所，所以我和元宵给大姐姐准备了生日会$4",
+"11500003.5":"@一定要来呀！$7",
+"11500003.6":"嗯嗯，我们还给你准备了礼物，大哥哥记得口袋里留出两个空位！$1^嗯嗯，我们还给你准备了礼物，大姐姐记得口袋里留出两个空位！$1",
+"11500003.7":"是的！我们在洞天等@$7",
+"11500003.8":"再见呀",
+
+//生日 后篇 偶数 汤圆主
+"11500004.1":"大哥哥你来啦，生日快乐！$1^大姐姐你来啦，生日快乐！$1",
+"11500004.2":"@，生日快乐！",
+"11500004.3":"你们做了看起来很美味的蛋糕呢！",
+"11500004.4":"是的！我和汤圆一起做的！$4",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+"11500004.":"",
+
+//汤圆2心
+"11500005.":"元，元宵，你在哪里...",
+"11500005.":"呜呜...",
+"11500005.":"小朋友，你怎么这么晚了还一个人在外面啊？",
+"11500005.":"我，呜呜，我，我迷路了#$b#天，天好黑，我，我好害怕有妖怪，钻，钻出来....",
+"11500005.":"*呜咽",
+"11500005.":"你是一个人来森林的？没有家人朋友跟你一起吗？",
+"11500005.":"莱纳斯上前轻轻拍了拍汤圆的头，汤圆终于平静了下来",
+"11500005.":"我，我下午的时候和元宵弟弟一起来的，但，但是我们迷路了#$b#我不小心摔倒从山坡上面滚下来，醒来就天黑了...",
+"11500005.":"还有另一个孩子也不见了是吗...我带你回去找他吧",
+"11500005.":"......哦",
+"11500005.":"没事了，另一个孩子也找到了#$b#你叫汤圆是吗？小汤圆，在等你的哥哥过来的时间里，我教你看星星吧？",
+"11500005.":"星星？",
+"11500005.":"是的哦，在野外时，星星是很重要的方向标哦#$b#不要总是因为眼前的黑暗恐惧，天上的星星能为你指明方向",
+"11500005.":"汤圆！",
+"11500005.":"元宵！",
+"11500005.":"干得好，老朋友",
+"11500005.":"...",
+
+//元宵2心
+"11500006.":"",
+
+//汤圆4心1
+"11500007.":"......",
+"11500007.":"嘶...我的腿",
+"11500007.":"老爷爷...您还好吗？",
+"11500007.":"...我没事",
+"11500007.":"可是...#$b#您，您看起来很不舒服....#$b#我，我或许可以帮到您...#$b#是，是关于您的腿,我应该能让您好..",
+"11500007.":"?",
+"11500007.":"走开！#$b#我不需要小孩子的恶作剧!",
+"11500007.":"呜...",
+"11500007.":"喂！不许你欺负汤圆#$b#汤圆好心要帮助你，你凭什么要凶汤圆！",
+"11500007.":".....",
+"11500007.":"为，为什么直接就走掉了！#$b#真是的...汤，汤圆你别哭了，没事的！",
+"11500007.":"发生什么事了？",
+"11500007.":"@！刚才那个老爷爷突然好大声吼汤圆！#$b#汤圆都被吓哭了！",
+"11500007.":"没...没关系，我没事的*呜咽",
+"11500007.":"原来是这样...",
+"11500007.":"汤圆原本是想做什么呢？",
+"11500007.":"汤圆是发现了什么吗？",
+"11500007.":"",
+"11500007.":"我，我看到老爷爷的腿很不舒服，所，所以我想用灵力帮帮他...",
+"11500007.":"汤圆，我觉得可能是因为乔治和你不熟悉哦？",
+"11500007.":"哎？",
+"11500007.":"乔治并不知道你们的身份，你贸然跟他说想要治疗他的腿，他会觉得是恶作剧",
+"11500007.":"原来是这样吗？#$b#但，但是老爷爷吼汤圆就是不对！他要和汤圆说对不起才行！",
+"11500007.":"这样吧，明天我陪你们一起去找乔治解释清楚，怎么样？",
+"11500007.":"好，好的",
+"11500007.":"好啦，汤圆不哭啦，奖励乐于助人的汤圆和保护哥哥的元宵一人一颗糖果，我们明天见！",
+"11500007.":"明,明天见",
+"11500007.":"明天见！",
+
+//汤圆4心后续
+"11500007.":"",
+
+//元宵4心
+"11500006.":"",
+
+//汤圆6心
+"11500007.":"",
+
+//元宵6心
+"11500008.":"",
+
+//汤圆10心
+"11500009.":"",
+
+//元宵10心
+"11500010.":"",
+
+
+
+
+
 
 //节日
-"TangYuan.spring13":"",
+"TangYuan.spring13":"好，好多人呀$3",
 "TangYuan_spouse.spring13":"",
-"YuanXiao.spring13":"彩蛋？是不是能改成新的武器！",
+"YuanXiao.spring13":"彩蛋游戏？听起来好有趣$7",
 "YuanXiao_spouse.spring13":"",
-"TangYuan.spring13.1":"",
+"TangYuan.spring13.1":"我，我也想一起玩游戏$4",
 "TangYuan_spouse.spring13.1":"",
-"YuanXiao.spring13.1":"",
+"YuanXiao.spring13.1":"我要和汤圆一队！$6",
 "YuanXiao_spouse.spring13.1":"",
-"TangYuan.spring24":"",
+
+"TangYuan.spring24":"这里有好多漂亮的花呢$3",
 "TangYuan_spouse.spring24":"",
-"YuanXiao.spring24":"",
+"YuanXiao.spring24":"好，好大的果冻...$11",
 "YuanXiao_spouse.spring24":"",
-"TangYuan.spring24.1":"",
+"TangYuan.spring24.1":"嘿嘿，大家都在一起，真是幸福呢$1",
 "TangYuan_spouse.spring24.1":"我跟不上大家的舞步...那，大哥哥可，可以在回家后和我一起跳舞吗？",
-"YuanXiao.spring24.1":"",
+"YuanXiao.spring24.1":"成，成熟的孩子才不会馋桌上的零食呢!$10",
 "YuanXiao_spouse.spring24.1":"",
 
-"TangYuan.summer11":"",
+"TangYuan.summer11":"大家聚在一起吃饭，就像过年一样呢$1",
 "TangYuan_spouse.summer11":"",
-"YuanXiao.summer11":"",
+"YuanXiao.summer11":"唔...这个鼓可以敲吗？",
 "YuanXiao_spouse.summer11":"",
-"TangYuan.summer11.1":"",
+"TangYuan.summer11.1":"就像过年一起吃团圆饭一样呢！$1",
 "TangYuan_spouse.summer11.1":"",
-"YuanXiao.summer11.1":"",
+"YuanXiao.summer11.1":"那边的人都在跳舞呢$6",
 "YuanXiao_spouse.summer11.1":"",
-"TangYuan.summer28":"",
+
+"TangYuan.summer28":"除了海边都没有灯...好，好可怕$2",
 "TangYuan_spouse.summer28":"",
-"YuanXiao.summer28":"",
+"YuanXiao.summer28":"汤圆别怕！有我在这里保护你！$9",
 "YuanXiao_spouse.summer28":"",
-"TangYuan.summer28.1":"",
+"TangYuan.summer28.1":"会发光的水母...好期待呀$1",
 "TangYuan_spouse.summer28.1":"",
-"YuanXiao.summer28.1":"",
+"YuanXiao.summer28.1":"我，我才不是感兴趣，只是来陪汤圆的！$10",
 "YuanXiao_spouse.summer28.1":"",
 
-"TangYuan.fall16":"",
+"TangYuan.fall16":"好期待大哥哥的展品呀！$1^好期待大姐姐的展品呀！$1",
 "TangYuan_spouse.fall16":"",
-"YuanXiao.fall16":"",
+"YuanXiao.fall16":"你这么厉害，我，我相信你会赢的$7",
 "YuanXiao_spouse.fall16":"",
-"TangYuan.fall16.1":"",
+"TangYuan.fall16.1":"飞镖游戏？$3",
 "TangYuan_spouse.fall16.1":"",
-"YuanXiao.fall16.1":"",
+"YuanXiao.fall16.1":"看我的！我要帮汤圆赢下奖品！$7",
 "YuanXiao_spouse.fall16.1":"",
-"TangYuan.fall27":"",
-"TangYuan_spouse.fall27":"",
-"YuanXiao.fall27":"",
-"YuanXiao_spouse.fall27":"",
-"TangYuan.fall27.1":"",
-"TangYuan_spouse.fall27.1":"",
-"YuanXiao.fall27.1":"",
-"YuanXiao_spouse.fall27.1":"",
 
-"TangYuan.winter8":"",
+"TangYuan.fall27":"那边有好多怪物...好，好可怕$2",
+"TangYuan_spouse.fall27":"",
+"YuanXiao.fall27":"没事的，我会用炸弹把怪物全都炸飞！绝对不会让它们伤害到汤圆！$11",
+"YuanXiao_spouse.fall27":"",
+
+"TangYuan.winter8":"到处都是白茫茫呢，大哥哥要注意保暖呀！$1^到处都是白茫茫呢，大姐姐要注意保暖呀！",
 "TangYuan_spouse.winter8":"",
-"YuanXiao.winter8":"",
+"YuanXiao.winter8":"唔...我想堆个雪人*小声$3",
 "YuanXiao_spouse.winter8":"",
-"TangYuan.winter8.1":"",
+"TangYuan.winter8.1":"大哥哥要一起堆雪人吗？^大姐姐要一起堆雪人吗？",
 "TangYuan_spouse.winter8.1":"",
-"YuanXiao.winter8.1":"",
+"YuanXiao.winter8.1":"然后是...这样，做个脑袋$3",
 "YuanXiao_spouse.winter8.1":"",
-"TangYuan.winter25":"",
+
+"TangYuan.winter25":"大家都聚在一起互送礼物，真幸福呀$1",
 "TangYuan_spouse.winter25":"",
-"YuanXiao.winter25":"",
+"YuanXiao.winter25":"树下的牛奶和饼干会变成礼物？好神奇$6",
 "YuanXiao_spouse.winter25":"",
-"TangYuan.winter25.1":"",
+"TangYuan.winter25.1":"大哥哥，节日快乐！^大姐姐，节日快乐！",
 "TangYuan_spouse.winter25.1":"",
-"YuanXiao.winter25.1":"",
+"YuanXiao.winter25.1":"下，下年也可以继续温柔的对待我们吗？$4",
 "YuanXiao_spouse.winter25.1":"",
 
 //信件
-"spring_12_1":"亲爱的@：^小镇上的叔叔阿姨们说，现在是种草莓的季节，我在空桑还没有种过草莓呢。^我就去商店找了卖种子的叔叔，但是他告诉我现在没有草莓种子卖....我就很难过的要走掉了，但是叔叔突然又喊住我，说他忘记了，草莓种子还有，但是只能买一点点。^所以，所以我就买了这些种子送给大姐姐。请问大姐姐可以和我一起种草莓吗？在空桑我就很擅长照顾田地里的植物了，在这里一定也可以的！^^——汤圆%item object 745 15%%[#]种草莓...",
-"spring_12_1.1":"亲爱的@：^小镇上的叔叔阿姨们说，现在是种草莓的季节，我在空桑还没有种过草莓呢。^我就去商店找了卖种子的叔叔，但是他告诉我现在没有草莓种子卖....我就很难过的要走掉了，但是叔叔突然又喊住我，说他忘记了，草莓种子还有，但是只能买一点点。^所以，所以我就买了这些种子送给大哥哥。请问大哥哥可以和我一起种草莓吗？在空桑我就很擅长照顾田地里的植物了，在这里一定也可以的！^^——汤圆%item object 745 15%%[#]种草莓...",
+"spring_12_1":"亲爱的@：^小镇上的叔叔阿姨们说，现在是种草莓的季节，我在空桑还没有种过草莓呢。^我就去商店找了卖种子的叔叔，但是他告诉我现在没有草莓种子卖...我就很难过的要走掉了，但是叔叔突然又喊住我，说他忘记了，草莓种子还有，但是只能买一点点。^所以，所以我就买了这些种子送给大姐姐。请问大姐姐可以和我一起种草莓吗？在空桑我就很擅长照顾田地里的植物了，在这里一定也可以的！^——汤圆%item object 745 15%%[#]种草莓...",
+"spring_12_1.1":"亲爱的@：^小镇上的叔叔阿姨们说，现在是种草莓的季节，我在空桑还没有种过草莓呢。^我就去商店找了卖种子的叔叔，但是他告诉我现在没有草莓种子卖...我就很难过的要走掉了，但是叔叔突然又喊住我，说他忘记了，草莓种子还有，但是只能买一点点。^所以，所以我就买了这些种子送给大哥哥。请问大哥哥可以和我一起种草莓吗？在空桑我就很擅长照顾田地里的植物了，在这里一定也可以的！^——汤圆%item object 745 15%%[#]种草莓...",
+"spring_1_1":"你好！^这里是模组作者，首先感谢你下载并游玩了我的mod!^本mod只在n网发布，不允许任何形式的倒卖行为哦^模组文件里内置了高清肖像，模组攻略也在文件夹里可以自行查阅^如果你会使用999可以自行使用肖像，不会用也没关系，n网的网站有写使用方法^最后，希望你玩得开心！要好好对待两个孩子哟~^——土豆[#]两颗小丸子",
 
-//地图#$c.5##$c#
+//地图
 "1":"“福禄满堂”",
 "2":"果盘似的圆床刚好能睡下两个孩子",
 "3":"窗外是瑞雪迎春，灯辉交映",
@@ -195,7 +336,7 @@
 //元宵节 后面 加个 院子 现在只 做了室内 室外外观 就 洞天小屋 然后 稍微大一点院子 节日就在院子里 果
 //汤圆负责 煮汤圆 然后 元宵 嗯就 溜达 不是 嗯煮元宵吧
 //但是院子画太大是不是 但是太小是不是站不下哦对了 站院子外面也不是不行 嗯就喜欢热闹的院子里面
-//嗯呢要不要把衣服家具也做成模组呢 唔做个少主的SF一起发吧 少主皮肤好多先画俩吧 没有女少主的图耶 算了拿不画了总有美化佬会出手
+//嗯要不要把衣服家具也做成模组呢 要不做个少主的SF一起发吧 少主皮肤好多先画俩吧 没有女少主的图耶 算了拿不画了总有美化佬会出手
 
 //物品
 "TangYuan.Portrait":"汤圆肖像",
@@ -233,12 +374,12 @@
 "TangYuan_GreenRain":"好，好可怕...外面的天暗沉沉的，会不会有妖怪钻出来啊？",//绿雨
 "TangYuan_MovieInvitation":"和大哥哥一起去看电影？嘿嘿，我好期待呀！^和大姐姐一起去看电影？嘿嘿，我好期待呀！",//电影邀请
 
-"TangYuan_refusal_knownA":"好漂亮！谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^好漂亮！谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",//不可婚
-"TangYuan_refusal_knownB":"是礼物吗？谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^是礼物吗？谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",
-"TangYuan_refusal_botherA":"贝壳吊坠？谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^贝壳吊坠？谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",
-"TangYuan_refusal_botherB":"没见过的贝壳？谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^没见过的贝壳？谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",
-"TangYuan_refusal_no_heartsA":"没见过的贝壳？谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^没见过的贝壳？谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",
-"TangYuan_refusal_no_heartsB":"没见过的贝壳？谢谢大哥哥呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物^没见过的贝壳？谢谢大姐姐呀#$b#%小孩子并不懂星露谷的传统,他只知道你送给了他一份礼物",
+"TangYuan_refusal_knownA":"？$4",//不可婚
+"TangYuan_refusal_knownB":"？$4",
+"TangYuan_refusal_botherA":"？$4",
+"TangYuan_refusal_botherB":"？$4",
+"TangYuan_refusal_no_heartsA":"？$4",
+"TangYuan_refusal_no_heartsB":"？$4",
 
 "TangYuan_AcceptBirthdayGift_Loved":"生日礼物！谢谢大哥哥，你，你对我真好！",//最爱
 "TangYuan_AcceptBirthdayGift_Liked":"",//喜欢
@@ -334,12 +475,12 @@
 "YuanXiao_GreenRain":"",//绿雨
 "YuanXiao_MovieInvitation":"",//电影邀请
 
-"YuanXiao_refusal_knownA":"",//不可婚
-"YuanXiao_refusal_knownB":"",
-"YuanXiao_refusal_botherA":"",
-"YuanXiao_refusal_botherB":"",
-"YuanXiao_refusal_no_heartsA":"",
-"YuanXiao_refusal_no_heartsB":"",
+"YuanXiao_refusal_knownA":"这是什么？",//不可婚
+"YuanXiao_refusal_knownB":"这是什么？",
+"YuanXiao_refusal_botherA":"这是什么？",
+"YuanXiao_refusal_botherB":"这是什么？",
+"YuanXiao_refusal_no_heartsA":"这是什么？",
+"YuanXiao_refusal_no_heartsB":"这是什么？",
 
 "YuanXiao_AcceptBirthdayGift_Loved":"",//最爱
 "YuanXiao_AcceptBirthdayGift_Liked":"",//喜欢
@@ -347,7 +488,8 @@
 "YuanXiao_AcceptBirthdayGift_Disliked":"",//不喜欢
 "YuanXiao_AcceptBirthdayGift_Hated":"",//讨厌
 "YuanXiao_StardropTea":"",//星茶
-"YuanXiao_AcceptGift_(O)物品":"",
+"YuanXiao_288":"是炸弹？肯定是我的酒心炸弹更强！",
+"YuanXiao_262":"哇，是毛茸茸的——我，我才不是喜欢这个呢！",
 
 "YuanXiao_Resort":"",//姜岛
 "YuanXiao_Resort_Bar":"",//酒吧

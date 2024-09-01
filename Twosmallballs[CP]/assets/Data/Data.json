@@ -25,7 +25,7 @@
   "CanGreetNearbyCharacters": false,
   "CanCommentOnPurchasedShopItems": false,
   "SocializeConditions": null,
-  "CanVisitIsland": true,
+  "CanVisitIsland": false,
   "CanVisitIslandCondition": null,
   "ExcludeFromIntroductionsQuest": false,
   "ExcludeFromPerfectionScore": false,
@@ -37,8 +37,8 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "map.Dongtian",
-  "Tile": {"X": 0,"Y": 0},
+  "Location": "Twosmallballsmap.Dongtian",
+  "Tile": {"X": 10,"Y": 10},
   "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
@@ -82,7 +82,7 @@
   "CanGreetNearbyCharacters": false,
   "CanCommentOnPurchasedShopItems": false,
   "SocializeConditions": null,
-  "CanVisitIsland": true,
+  "CanVisitIsland": false,
   "CanVisitIslandCondition": null,
   "ExcludeFromIntroductionsQuest": false,
   "ExcludeFromPerfectionScore": false,
@@ -94,8 +94,8 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "map.Dongtian",
-  "Tile": {"X": 1,"Y": 1},
+  "Location": "Twosmallballsmap.Dongtian",
+  "Tile": {"X": 10,"Y": 11},
   "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
@@ -115,23 +115,17 @@
 // "MapSourceRect": { "X": 4, "Y": 0, "Width": 4, "Height": 4 }}
 
 
-{"LogName": "物品-喜好",
-  "Action": "EditData",
-  "Target": "Data/NPCGiftTastes",
-  "Entries": 
-{"Universal_Love": "TangYuan.Objects,YuanXiao.Objects,Twosmallballs.Baozi,Twosmallballs.scarf,Twosmallballs.Pillow,Twosmallballs.rabbithair,Twosmallballs.flower,Twosmallballs.turtleshell,Twosmallballs.soup,Twosmallballs.wine,Twosmallballs.shell,"}},
-
 {"LogName": "汤圆-喜好",
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-{"TangYuan": "{{i18n:TangYuan.LoveGift}}/1/{{i18n:TangYuan.LikeGift}}/2/{{i18n:TangYuan.DisGift}}/3/{{i18n:TangYuan.HateGift}}/4/{{i18n:TangYuan.NeuGift}}/5/"}},
+{"TangYuan": "{{i18n:TangYuan.LoveGift}}/192 TangYuan.Objects YuanXiao.Objects Twosmallballs.Baozi Twosmallballs.scarf Twosmallballs.Pillow/{{i18n:TangYuan.LikeGift}}/Twosmallballs.rabbithair Twosmallballs.flower Twosmallballs.turtleshell Twosmallballs.soup Twosmallballs.wine Twosmallballs.shell/{{i18n:TangYuan.DisGift}}//{{i18n:TangYuan.HateGift}}//{{i18n:TangYuan.NeuGift}}//"}},
 
 {"LogName": "元宵-喜好",
   "Action": "EditData",
   "Target": "Data/NPCGiftTastes",
   "Entries": 
-{"YuanXiao": "{{i18n:YuanXiao.LoveGift}}/1/{{i18n:YuanXiao.LikeGift}}/2/{{i18n:YuanXiao.DisGift}}/3/{{i18n:YuanXiao.HateGift}}/4/{{i18n:YuanXiao.NeuGift}}/5/"}},
+{"YuanXiao": "{{i18n:YuanXiao.LoveGift}}/192 440 262 TangYuan.Objects YuanXiao.Objects Twosmallballs.Baozi Twosmallballs.scarf Twosmallballs.Pillow/{{i18n:YuanXiao.LikeGift}}/286 287 288 Twosmallballs.rabbithair Twosmallballs.flower Twosmallballs.turtleshell Twosmallballs.soup Twosmallballs.wine Twosmallballs.shell/{{i18n:YuanXiao.DisGift}}//{{i18n:YuanXiao.HateGift}}//{{i18n:YuanXiao.NeuGift}}//"}},
 
 
 {"LogName": "汤圆-行走图",
@@ -158,7 +152,7 @@
 {"LogName":"汤圆-肖像",
   "Action": "Load",
   "Target": "Portraits/TangYuan",
-  "FromFile": "assets/Portraits/TangYuan.png",  
+  "FromFile": "assets/Portraits/TangYuan64.png",  
   "When": 
 {"HasMod |contains=tlitookilakin.HDPortraits": false}},
 
@@ -166,7 +160,7 @@
 //{"LogName":"汤圆-皮肤肖像",
 //  "Action": "Load",
 //  "Target": "Portraits/TangYuan",
-//  "FromFile": "assets/Portraits/TangYuan.png",  
+//  "FromFile": "assets/Portraits/TangYuan64_1.png",  
 //  "When": 
 //{"TangYuanSprites": "true",
 // "HasMod |contains=tlitookilakin.HDPortraits": false} },
@@ -174,7 +168,7 @@
 {"LogName":"元宵-肖像",
   "Action": "Load",
   "Target": "Portraits/YuanXiao",
-  "FromFile": "assets/Portraits/YuanXiao.png",  
+  "FromFile": "assets/Portraits/YuanXiao64.png",  
   "When": 
 {"HasMod |contains=tlitookilakin.HDPortraits": false}},
 
@@ -189,7 +183,7 @@
 {"LogName": "肖像-文件",
   "Action": "Load",
   "Target": "Mods/Twosmallballs/TangYuan, Mods/Twosmallballs/YuanXiao",//Mods/Twosmallballs/YuanXiao1
-  "FromFile": "assets/HDPortraits/{{TargetWithoutPath}}.png",
+  "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
   "When": 
 {"HasMod |contains=tlitookilakin.HDPortraits": true}},
 
@@ -229,6 +223,15 @@
 {"LogName": "对话文件",
   "Action": "Include",
   "FromFile": "assets/NPC/TangYuanDialogue.json,assets/NPC/YuanXiaoDialogue.json,"},
+
+
+{"LogName": "节日-对话",
+  "Action": "Include",
+  "FromFile": "assets/NPC/FestivalsDialogue.json"},
+
+{"LogName": "节日-位置",
+  "Action": "Include",
+  "FromFile": "assets/NPC/Festivalsstation.json"},
 
 
 {"LogName": "动作",
@@ -276,9 +279,9 @@
   "Entries": 
 {"TangYuan": 
 {"Name": "TangYuan",
-  "LovedTags": [ "TangYuan" ],
-  "LikedTags": [ "TangYuan" ],
-  "DislikedTags": [ "TangYuan" ]}}},
+  "LovedTags": [ "Cotton CandyCotton Candy","Fries","Jawbreaker","Sour Slimes","Rock Candy" ],
+  "LikedTags": [ "Cappuccino Mousse Cake","Apple Slices","Star Cookie","Chocolate Popcorn","Ice Cream Sandwich" ],
+  "DislikedTags": [ "Joja Cola", "JojaCorn","Black Licorice","Nachos" ]}}},
 
 {"LogName": "元宵-电影零食",
   "Action": "EditData",
@@ -286,9 +289,9 @@
   "Entries": 
 {"YuanXiao": 
 {"Name": "YuanXiao",
-  "LovedTags": [ "TangYuan" ],
-  "LikedTags": [ "TangYuan" ],
-  "DislikedTags": [ "TangYuan" ]}}},
+  "LovedTags": [ "Cotton CandyCotton Candy","Fries","Jawbreaker","Sour Slimes","Rock Candy" ],
+  "LikedTags": [ "Cappuccino Mousse Cake","Apple Slices","Star Cookie","Chocolate Popcorn","Ice Cream Sandwich" ],
+  "DislikedTags": [ "Joja Cola", "JojaCorn","Black Licorice","Nachos" ]}}},
 
 
 {"LogName": "汤圆-电影对话",
@@ -300,11 +303,11 @@
  "Reactions": [
 {"LogName": "汤圆-小树苗",
   "Tag": "spring_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "like",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie2}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.DuringMovie2}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
@@ -313,37 +316,37 @@
 
 {"LogName": "汤圆-草原之王",
   "Tag": "summer_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie3}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie3}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie3}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_no}}"}},
 "ID": "reaction_3"},
 
 {"LogName": "汤圆-神秘事迹",
   "Tag": "fall_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie4}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie4}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie4}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_no}}"}},
 "ID": "reaction_4"},
 
 {"LogName":"汤圆-牧场奇迹",
   "Tag": "winter_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "love",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie5}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.DuringMovie5}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
@@ -352,24 +355,24 @@
 
 {"LogName":"汤圆-探索世界",
   "Tag": "spring_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie6}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie6}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie6}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_no}}"}},
 "ID": "reaction_6"},
 
 {"LogName": "汤圆-温不斯",
   "Tag": "summer_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "like",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie7}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.DuringMovie7}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
@@ -378,7 +381,7 @@
 
 {"LogName": "汤圆-雨中嚎叫",
   "Tag": "fall_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "hate",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
@@ -391,15 +394,15 @@
 
 {"LogName": "汤圆-特快列车",
   "Tag": "winter_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie9}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie9}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie9}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_no}}"}},
 "ID": "reaction_9"}]}}},
 
 
@@ -412,91 +415,91 @@
  "Reactions": [
 {"LogName": "元宵-小树苗",
   "Tag": "spring_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "love",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie2}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie2}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_yes}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.AfterMovie2}}"}},
 "ID": "reaction_2"},
 
 {"LogName": "元宵-草原之王",
   "Tag": "summer_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "love",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.BeforeMovie3}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie3}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_yes}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.AfterMovie3}}"}},
 "ID": "reaction_3"},
 
 {"LogName": "元宵-神秘事迹",
   "Tag": "fall_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie4}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie4}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie4}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_yes}}"}},
 "ID": "reaction_4"},
 
 {"LogName":"元宵-牧场奇迹",
   "Tag": "winter_movie_0",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "like",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie5}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_yes}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie5}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_yes}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie5}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_yes}}"}},
 "ID": "reaction_5"},
 
 {"LogName":"元宵-探索世界",
   "Tag": "spring_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie6}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie6}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie6}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_yes}}"}},
 "ID": "reaction_6"},
 
 {"LogName": "元宵-温不斯",
   "Tag": "summer_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "like",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie7}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_hi}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie7}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_yes}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie7}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_yes}}"}},
 "ID": "reaction_7"},
 
 {"LogName": "元宵-雨中嚎叫",
   "Tag": "fall_movie_1",
-  "Response": "最爱love/喜好like/不喜欢dislike/讨厌hate",
+  "Response": "dislike",
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie8}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie8}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
                 "Text": "{{i18n:TangYuan.AfterMovie8}}"}},
 "ID": "reaction_8"},
@@ -507,11 +510,11 @@
   "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.BeforeMovie9}}"},
+                "Text": "{{i18n:TangYuan.BeforeMovie_no}}"},
 "DuringMovie": {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.DuringMovie9}}"},
+                "Text": "{{i18n:TangYuan.DuringMovie_no}}"},
 "AfterMovie":  {"ResponsePoint": null,"Script": "",
-                "Text": "{{i18n:TangYuan.AfterMovie9}}"}},
+                "Text": "{{i18n:TangYuan.AfterMovie_yes}}"}},
 "ID": "reaction_9"}]}}},
 
 

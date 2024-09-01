@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="22">
+ <properties>
+  <property name="Music" value="Guiyuantianxi"/>
+  <property name="Warp" value="7 17 Mountain 10 12"/>
+ </properties>
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="m" tilewidth="16" tileheight="16" tilecount="6400" columns="80">
+  <image source="assets/m.png" width="1280" height="1280"/>
+ </tileset>
+ <layer id="1" name="Back" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxbwcHAsBKIVxCgfwDxTyJoQuaMmoefBgCEj1ST
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztyscJgEAARNG5GS5akAEMdawF7SoY6tGCDGC4+wuwBAce/MOsgbRhx4HZkxac9IUbD5JQSpEhR+RLMQq6RIUaFg4tOhg+DXp6wIgJ/773AvIPEYA=
+  </data>
+ </layer>
+ <layer id="7" name="Front" width="10" height="10">
+  <properties>
+   <property name="Warp" value="17 19 cxxmap.RES5 70 39"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJwNw7c2AwAUANAnCDYp2t/oYovOpoe/0cuml00NNr38jRJty73n3NtUxJ33Pvjok8+++Oqb9emIlGkzZm2w0SabbXHcCSedctoZZy0457wnnnrmuRdeWvTKa2+MTESFCSutstqkNdZaZ94++x1w0CGHHXHUMbfcdsdd99z3wEOPPPbdDz/9suS3P/7657+t2Yg22+2w0y677TFnrwsuuuSyK6665robbloG7842sQ==
+  </data>
+ </layer>
+ <layer id="18" name="Paths" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer id="17" name="AlwaysFront" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="12" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Front"/>
+ <objectgroup id="12" name="AlwaysFront"/>
+ <objectgroup id="14" name="Paths"/>
+</map>

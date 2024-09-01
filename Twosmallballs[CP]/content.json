@@ -1,11 +1,32 @@
 {"Format": "2.0.0",
 
-//"ConfigSchema":{
+"RepeatEvents": [
+ 11500001,
+ 11500002,
+ 11500003,
+ 11500004
+],
+
+"ConfigSchema":{
+
+"BirthdaySeason": 
+{"AllowValues": "spring, summer, fall, winter",
+ "Default": "winter",
+ "Section": "Birthday",
+ "Description": "生日事件发生的季节"},
+
+"BirthdayDay": 
+{"AllowValues": "1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28",
+ "Default": "15",
+ "Section": "Birthday",
+ "Description": "生日事件发生的日期"}
 
 //"TangYuanSprites":
 //{"AllowValues": "true, false",
 // "Default": "false",
-// "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}},
+// "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}
+},
+
 
 "Changes":[
 
@@ -24,10 +45,6 @@
 {"LogName": "事件",
   "Action": "Include",
   "FromFile": "assets/Data/Events.json,"},
-
-{"LogName": "节日",
-  "Action": "Include",
-  "FromFile": "assets/Data/Festivals.json,"},
 
 {"LogName": "信件",
   "Action": "Include",
@@ -54,11 +71,8 @@
  "Category": "Music",
  "FilePaths": ["{{AbsoluteFilePath:assets/Music/Guiyuantianxi.ogg}}"],
  "StreamedVorbis": false,
- "Looped": true}}}],
+ "Looped": true}}}]
 
-//"RepeatEvents": [
-//	656070921,//汤圆
-//	656070922,//元宵]
 
 
 }

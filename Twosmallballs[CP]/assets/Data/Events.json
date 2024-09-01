@@ -1,16 +1,78 @@
+
+
+// 蛋糕 addObject x y 221 Front
+//advancedMove NPC 循环True为开启循环，否为关闭 坐标 坐标 *时间 走走停停
+//----设定NPC的多次移动（比如/advancedMove Robin false 0 3 2 0 0 2 -2 0 0 -2 2 0/ 罗宾就会去坐标（0，3）之后是（2,0）然后（0,2）(-2,0)（0，-2）（2,0）……（True的情况像海莉14心举办的交换蛋糕活动，NPC在转圈圈的那个）
+//烟花changeLocation Twosmallballsmap.CG
+//emote 演员 表情id
+//jump 演员 高度
+
+//move 演员 x y 面向 true
+//----让指定角色移动到指定位置（一次性只能横向或直向，要斜线移动就重复使用move这个命令）[continue]是默认（空白）的话，角色会暂停事件，如果是true，角色会进行非同步移动并同时进行其他事件命令 情况为true，我们的角色正在移动时，我们可以输入别的命令，（如山姆6心事件，村长走路遇到山姆玩滑板））】
+//pause 400
+//----暂停游戏，时长单位是毫秒（用于表示动画使用，比如移动角色，播放角色动作等等）{{i18n:}}
+//message \"{{i18n:}}\"
+//speak NPC \"{{i18n:}}\"
+//textAboveHead 演员 \"{{i18n:}}\"
+//----在指定角色头上出现对话泡泡
+
+
 {"Changes":[
 
+    
+{"LogName": "生日剧情，前段，偶数年",
+ "Action": "EditData",
+ "Target": "Data/Events/Farm",
+ "Entries": 
+{"11500001/t 600 1200":"continue/64 17/farmer -111 -111 2 TangYuan -111 -111 1 YuanXiao -111 -111 1/skippable/warp TangYuan 64 18/warp YuanXiao 65 18/warp farmer 64 14 /pause 600/ move farmer 0 1 2/pause 600/jump YuanXiao 1/pause 600/textAboveHead TangYuan \"{{i18n:11500001.1}}\"/pause 600/message \"{{i18n:11500001.2}}\"/speak TangYuan \"{{i18n:11500001.3}}\"/speak YuanXiao \"{{i18n:11500001.4}}\"/speak TangYuan \"{{i18n:11500001.5}}\"/speak YuanXiao \"{{i18n:11500001.6}}\"/speak TangYuan \"{{i18n:11500001.7}}\"/pause 600/textAboveHead YuanXiao \"{{i18n:11500001.8}}\"/pause 600/end"},
+"When": 
+{"Season": "{{BirthdaySeason}}",
+ "Day": "{{BirthdayDay}}",
+"Year |contains=2,4,6,8,10": "false"}},
+
+{"LogName": "生日剧情，偶数年",
+ "Action": "EditData",
+ "Target": "Data/Events/Twosmallballsmap.Dongtian",
+ "Entries": 
+{"11500002/c 2/e 11500001/t 1400 2400": "continue/-10000 -1000/farmer -100 -100 2 TangYuan -100 -100 2 YuanXiao -100 -100 2/skippable/pause 600/speak YuanXiao \"{{i18n:11500002.1}}\"/speak TangYuan \"{{i18n:11500002.2}}/pause 600/message \"{{i18n:11500002.3}}\"/pause 600/speak TangYuan \"{{i18n:11500002.4}}\"/pause 600/textAboveHead YuanXiao \"{{i18n:11500002.5}}\"/pause 600/speak YuanXiao \"{{i18n:11500002.6}}\"/question fork1 \"{{i18n:11500002.7}}#{{i18n:11500002.8}}#{{i18n:11500002.9}}\"/fork 11500002_2/pause 600/speak YianXiao \"{{i18n:11500002_1}}\"/pause 600/switchEvent 11500002_end",
+ "11500002_2": "pause 600/speak YuanXiao \"{{i18n:11500002_2}}\"/switchEvent 11500002_end",
+ "11500002_end": "pause 600/speak YuanXiao \"{{i18n:11500002.10}}\"/pause 600/textAboveHead TangYuan \"{{i18n:11500002.12}}\"/pause 600/message \"{{i18n:11500002.13}}\"/pause 600/speak TangYuan \"{{i18n:11500002.14}}/speak YuanXiao \"{{i18n:11500002.15}}/pause 600/message \"{{i18n:11500002.16}}\"/pause 600/speak YuanXiao \"{{i18n:11500002.17}}/pause 600/message \"{{i18n:11500001.18}}\"/changeLocation Twosmallballsmap.CG/pause 600/speak TangYuan \"{{i18n:11500002.19}}/speak YuanXiao \"{{i18n:11500002.20}}/pause 600/end",
+},
+ "When": 
+{"Season": "{{BirthdaySeason}}",
+ "Day": "{{BirthdayDay}}",
+"Year |contains=2,4,6,8,10": "false"}},
 
 
+{"LogName": "生日剧情，前段，单数年",
+ "Action": "EditData",
+ "Target": "Data/Events/Farm",
+ "Entries": 
+{"11500003/t 600 1200": "continue/64 17/farmer -111 -111 2 TangYuan -111 -111 1 YuanXiao -111 -111 1/skippable/warp YuanXiao 64 18/warp TangYuan 65 18/warp farmer 64 14 /pause 600/ move farmer 0 1 2/pause 600/jump YuanXiao 1/pause 600/textAboveHead YuanXiao \"{{i18n:11500003.1}}\"/pause 600/message \"{{i18n:11500003.2}}\"/speak YuanXiao \"{{i18n:11500003.3}}\"/speak TangYuan \"{{i18n:11500003.4}}\"/speak YuanXiao \"{{i18n:11500003.5}}\"/speak TangYuan \"{{i18n:11500003.6}}\"/speak YuanXiao \"{{i18n:11500003.7}}\"/pause 600/textAboveHead TangYuan \"{{i18n:11500003.8}}\"/pause 600/end"},
+ "When": 
+{"Season": "{{BirthdaySeason}}",
+ "Day": "{{BirthdayDay}}",
+"Year |contains=2,4,6,8,10": "false"}},
 
 
+{"LogName": "生日剧情，单数年",
+ "Action": "EditData",
+ "Target": "Data/Events/Twosmallballsmap.Dongtian",
+ "Entries": 
+{"11500004/c 2/t 1400 2400": "continue/-10000 -1000/farmer -100 -100 2 TangYuan -100 -100 2 YuanXiao -100 -100 2/skippable/"},
+ "When": 
+{"Season": "{{BirthdaySeason}}",
+ "Day": "{{BirthdayDay}}",
+"HasSeenEvent":"11500003",
+"Year |contains=2,4,6,8,10": "false"}},
 
 
-
-
-
-
-
+{"LogName": "剧情，小镇",
+ "Action": "EditData",
+ "Target": "Data/Events/Town",
+ "Entries": 
+{"11500005/t 600 2600":"continue/10 10/George 1000 1000 3 TangYuan 66 65 2 YuanXiao 66 66 1/skippable/warp George 57 64/pause 600/move George 0 1 2/end"},
+ "When": {}},
 
 
 

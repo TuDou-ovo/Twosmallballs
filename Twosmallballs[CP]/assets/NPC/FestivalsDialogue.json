@@ -10,10 +10,6 @@
  "YuanXiao": "{{i18n:YuanXiao.spring13}}",
  //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.spring13}}"
  },
- "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -27,10 +23,6 @@
  "YuanXiao": "{{i18n:YuanXiao.spring13.1}}",
  //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.spring13.1}}"
 },
- "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}},
 
@@ -44,10 +36,6 @@
  "YuanXiao": "{{i18n:YuanXiao.spring24}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.spring24}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -61,10 +49,6 @@
  "YuanXiao": "{{i18n:YuanXiao.spring24.1}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.spring24.1}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}},
 
@@ -78,10 +62,6 @@
  "YuanXiao": "{{i18n:YuanXiao.summer11}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.summer11}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -95,10 +75,6 @@
  "YuanXiao": "{{i18n:YuanXiao.summer11.1}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.summer11.1}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}},
 
@@ -112,10 +88,6 @@
  "YuanXiao": "{{i18n:YuanXiao.summer28}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.summer28}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -129,10 +101,6 @@
  "YuanXiao": "{{i18n:YuanXiao.summer28.1}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.summer28.1}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}},
 
@@ -146,10 +114,6 @@
  "YuanXiao": "{{i18n:YuanXiao.fall16}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.fall16}}",
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -163,15 +127,11 @@
  "YuanXiao": "{{i18n:YuanXiao.fall16.1}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.fall16.1}}"
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}},
 
 
-{"LogName": "单数年-万圣节",
+{"LogName": "万圣节",
   "Action": "EditData",
   "Target": "Data/Festivals/fall27",
   "Entries":
@@ -179,30 +139,7 @@
  //"TangYuan_spouse": "{{i18n:TangYuan_spouse.fall27}}",
  "YuanXiao": "{{i18n:YuanXiao.fall27}}",
  //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.fall27}}"
- },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
- "When": 
-{"Year |contains=2,4,6,8,10": "false"}},
-
-
-{"LogName": "偶数年-万圣节",
-  "Action": "EditData",
-  "Target": "Data/Festivals/fall27",
-  "Entries":
-{"TangYuan": "{{i18n:TangYuan.fall27.1}}",
- //"TangYuan_spouse": "{{i18n:TangYuan_spouse.fall27.1}}",
- "YuanXiao": "{{i18n:YuanXiao.fall27.1}}",
- //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.fall27.1}}"
- },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
- "When": 
-{"Year |contains=2,4,6,8,10": "true"}},
+ }},
 
 
 {"LogName": "单数年-冰钓节",
@@ -213,30 +150,9 @@
  //"TangYuan_spouse": "{{i18n:TangYuan_spouse.winter8}}",
  "YuanXiao": "{{i18n:YuanXiao.winter8}}",
  //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.winter8}}",
- },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
- "When": 
-{"Year |contains=2,4,6,8,10": "false"}},
+ }},
 
 
-{"LogName": "偶数年-冰钓节",
-  "Action": "EditData",
-  "Target": "Data/Festivals/winter8",
-  "Entries":
-{"TangYuan": "{{i18n:TangYuan.winter8.1}}",
- //"TangYuan_spouse": "{{i18n:TangYuan_spouse.winter8.1}}",
- "YuanXiao": "{{i18n:YuanXiao.winter8.1}}",
- //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.winter8.1}}"
- },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
- "When": 
-{"Year |contains=2,4,6,8,10": "true"}},
 
 
 {"LogName": "单数年-圣诞节",
@@ -248,10 +164,6 @@
  "YuanXiao": "{{i18n:YuanXiao.winter25}}",
  //"YuanXiao_spouse": "{{i18n:YuanXiao_spouse.winter25}}"
  },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "false"}},
 
@@ -265,10 +177,6 @@
  "YuanXiao": "{{i18n:YuanXiao.winter25.1}}",
 // "YuanXiao_spouse": "{{i18n:YuanXiao_spouse.winter25.1}}"
 },
-  "TextOperations": [
-{"Operation": "Append",
-  "Target": ["Entries","Set-Up_additionalCharacters"],
-  "Value": "TangYuan 32 55 2 YuanXiao 32 55 2"}],
  "When": 
 {"Year |contains=2,4,6,8,10": "true"}}
 

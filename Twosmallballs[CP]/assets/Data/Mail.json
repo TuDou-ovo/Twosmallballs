@@ -5,6 +5,16 @@
   "Action": "EditData",
   "Target": "Data/mail",
   "Entries":
+{"spring_1_1": "{{i18n:spring_1_1}}"}
+
+
+},
+
+
+{"LogName": "信件",
+  "Action": "EditData",
+  "Target": "Data/mail",
+  "Entries":
 {"spring_12_1": "{{i18n:spring_12_1}}"},
 
 "When": 
@@ -15,10 +25,13 @@
   "Action": "EditData",
   "Target": "Data/mail",
   "Entries":
-{"spring_12_1.1": "{{i18n:spring_12_1.1}}"},
+{"spring_12_1": "{{i18n:spring_12_1.1}}"},
 
 "When": 
 {"PlayerGender":"male"}}
+
+
+
 
 
 
