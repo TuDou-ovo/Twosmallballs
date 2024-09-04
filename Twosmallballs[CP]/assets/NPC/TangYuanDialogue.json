@@ -10,7 +10,7 @@
 "GreenRain":"{{i18n:TangYuan_GreenRain}}",//绿雨
 "MovieInvitation": "{{i18n:TangYuan_MovieInvitation}}",//电影邀请
 
-"refusal_knownA": "{{i18n:TangYuan_refusal_knownA}}",//不可婚
+"refusal_knownA": "{{i18n:TangYuan_refusal_knownA}}",
 "refusal_knownB": "{{i18n:TangYuan_refusal_knownB}}",
 "refusal_botherA": "{{i18n:TangYuan_refusal_botherA}}",
 "refusal_botherB": "{{i18n:TangYuan_refusal_botherB}}",
@@ -23,7 +23,9 @@
 "AcceptBirthdayGift_Disliked": "{{i18n:TangYuan_AcceptBirthdayGift_Disliked}}",//不喜欢
 "AcceptBirthdayGift_Hated": "{{i18n:TangYuan_AcceptBirthdayGift_Hated}}",//讨厌
 "AcceptGift_(O)StardropTea": "{{i18n:TangYuan_StardropTea}}",//星茶
-"AcceptGift_(O)物品":"{{i18n:TangYuan_物品}}",
+
+"Beach":"{{i18n:TangYuan_Beach}}",
+"Rain":"{{i18n:TangYuan_Rain}}",
 
 //"Resort": "{{i18n:TangYuan_Resort}}",//姜岛
 //"Resort_Bar": "{{i18n:TangYuan_Resort_Bar}}",//酒吧
@@ -38,19 +40,16 @@
 
 "spring_1_2": "{{i18n:TangYuan_spring_1_2}}",
 "spring_12":"{{i18n:TangYuan_spring_12}}",
-"spring_15": "{{i18n:TangYuan_spring_15}}",
-"spring_23":"{{i18n:TangYuan_spring_23}}",
 
 "summer_1": "{{i18n:TangYuan_summer_1}}",
 "summer_10":"{{i18n:TangYuan_summer_10}}",
-"summer_27":"{{i18n:TangYuan_summer_27}}",
 
 "fall_1": "{{i18n:TangYuan_fall_1}}",
-"fall_15":"{{i18n:TangYuan_fall_15}}",
 "fall_26":"{{i18n:TangYuan_fall_26}}",
 
-"winter_1": "{{i18n:TangYuan_winter_7}}",
+"winter_1": "{{i18n:TangYuan_winter_1}}",
 "winter_7":"{{i18n:TangYuan_winter_7}}",
+"winter_15": "{{i18n:TangYuan_winter_15}}",
 "winter_24":"{{i18n:TangYuan_winter_24}}",
 
 "Mon": "{{i18n:TangYuan_Mon}}",    

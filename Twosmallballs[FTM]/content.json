@@ -20,8 +20,8 @@
         ],
         "UniqueAreaID": "Woods forage area 1",
         "MapName": "Woods",
-        "MinimumSpawnsPerDay": 4,
-        "MaximumSpawnsPerDay": 8,
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [
           "Diggable"
         ],
@@ -66,8 +66,8 @@
         ],
         "UniqueAreaID": "Beach forage area 1",
         "MapName": "Beach",
-        "MinimumSpawnsPerDay": 4,
-        "MaximumSpawnsPerDay": 8,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Diggable"
         ],
@@ -112,8 +112,8 @@
         ],
         "UniqueAreaID": "IslandEast forage area 1",
         "MapName": "IslandEast",
-        "MinimumSpawnsPerDay": 4,
-        "MaximumSpawnsPerDay": 8,
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [
           "All"
         ],

@@ -142,7 +142,7 @@
  }},
 
 
-{"LogName": "单数年-冰钓节",
+{"LogName": "冰钓节",
   "Action": "EditData",
   "Target": "Data/Festivals/winter8",
   "Entries":

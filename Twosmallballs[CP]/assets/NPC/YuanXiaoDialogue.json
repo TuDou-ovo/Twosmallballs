@@ -23,12 +23,14 @@
 "AcceptBirthdayGift_Disliked": "{{i18n:YuanXiao_AcceptBirthdayGift_Disliked}}",//不喜欢
 "AcceptBirthdayGift_Hated": "{{i18n:YuanXiao_AcceptBirthdayGift_Hated}}",//讨厌
 "AcceptGift_(O)StardropTea": "{{i18n:YuanXiao_StardropTea}}",//星茶
-"AcceptGift_(O)物品":"{{i18n:YuanXiao_物品}}",
 "AcceptGift_(O)262":"{{i18n:YuanXiao_262}}",
-"AcceptGift_(O)440":"{{i18n:YuanXiao_440}}",
+"AcceptGift_(O)440":"{{i18n:YuanXiao_262}}",
 "AcceptGift_(O)286":"{{i18n:YuanXiao_288}}",
 "AcceptGift_(O)287":"{{i18n:YuanXiao_288}}",
 "AcceptGift_(O)288":"{{i18n:YuanXiao_288}}",
+
+"Beach":"{{i18n:YuanXiao_Beach}}",
+"Rain":"{{i18n:YuanXiao_Rain}}",
 
 //"Resort": "{{i18n:YuanXiao_Resort}}",//姜岛
 //"Resort_Bar": "{{i18n:YuanXiao_Resort_Bar}}",//酒吧

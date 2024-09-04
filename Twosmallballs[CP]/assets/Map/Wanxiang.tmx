@@ -1,33 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
- <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="9" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" name="m" tilewidth="16" tileheight="16" tilecount="2560" columns="32">
+  <image source="assets/m.png" width="520" height="1280"/>
  </tileset>
- <layer id="1" name="Back" width="3" height="4">
-  <properties>
-   <property name="NPCWarp" value="1 2 potato.cxxcp.Backwoods.cave 7 14"/>
-   <property name="Warp" value="1 2 potato.cxxcp.Backwoods.cave 7 14"/>
-  </properties>
+ <tileset firstgid="2561" name="m" tilewidth="16" tileheight="16" tilecount="2560" columns="32">
+  <image source="assets/m.png" width="520" height="1280"/>
+  <tile id="768">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="769">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="770">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="771">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="772">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="773">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="774">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="800">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="801">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="802">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="803">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="804">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="805">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="806">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5121" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="333">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="333" duration="500"/>
+    <frame tileid="334" duration="500"/>
+    <frame tileid="335" duration="500"/>
+    <frame tileid="336" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1246">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="1246" duration="500"/>
+    <frame tileid="1271" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1274">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1318">
+   <animation>
+    <frame tileid="1318" duration="500"/>
+    <frame tileid="1319" duration="500"/>
+    <frame tileid="1320" duration="500"/>
+    <frame tileid="1321" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="7096" name="spring_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="assets/spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+  <tile id="902">
+   <animation>
+    <frame tileid="902" duration="500"/>
+    <frame tileid="903" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="918">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="918" duration="500"/>
+    <frame tileid="919" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="934">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="934" duration="500"/>
+    <frame tileid="935" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="9" name="Back" width="9" height="4">
   <data encoding="base64" compression="zlib">
-   eJy7xcDAcAsHngTEk6Hs1UC8BogB/aAJTQ==
+   eJz7LcHA8HsQYQArjSat
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Buildings" width="3" height="4">
+ <layer id="3" name="Buildings" width="9" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFlUBcBWVPAuLJUPZqIF4DxAA5SANw
+   eJwNyrkRggAUQMGP4hFIDQyXGlmCM4KKkSXYuyhoGWyw85J3yiPeu4iBD19GJn78eXqSLGLBkpQVazZseXkKLamoadhz4MjZc9GWjis37vQ8mAHrMA29
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
- <layer id="5" name="Front" width="3" height="4">
+ <layer id="5" name="Front" width="9" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYCANAAAAMAAB
+   eJxjYBgYoC6JXRwABncAQQ==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
- <layer id="7" name="Front2" width="3" height="4">
+ <layer id="7" name="Front2" width="9" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYCANAAAAMAAB
+   eJxjYBhcAAAAkAAB
   </data>
  </layer>
  <objectgroup id="8" name="Front2"/>

@@ -25,7 +25,17 @@
 //{"AllowValues": "true, false",
 // "Default": "false",
 // "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}
-},
+}	,
+
+"CustomLocations": [
+
+{"LogName": "加载地图 洞天",
+ "Name": "Custom_Twosmallballs.Dongtian", 
+ "FromMapFile": "assets/Map/Dongtian.tmx"},
+
+{"LogName": "加载地图 CG",
+ "Name": "Custom_Twosmallballs.CG",
+ "FromMapFile": "assets/Map/CG.tmx"}],
 
 
 "Changes":[
@@ -33,7 +43,7 @@
 {"LogName": "动物",
   "Action": "Include",
   "FromFile": "assets/Data/Animals.json,"},
-
+  
 {"LogName": "CJB",
   "Action": "Include",
   "FromFile": "assets/Data/CJB.json,"},
@@ -61,6 +71,16 @@
 {"LogName": "商店",
   "Action": "Include",
   "FromFile": "assets/Data/Shop.json,"},
+
+{"LogName": "图块",
+ "Action": "Load",
+ "Target": "Maps/m",
+ "FromFile": "assets/Map/assets/m.png"},
+
+{"LogName": "史莱姆",
+ "Action": "Load",
+ "Target": "Characters/Twosmallballs.1",
+ "FromFile": "assets/Sprites/1.png"},
   
 {"LogName": "背景音乐-归园田兮",
   "Action": "EditData",

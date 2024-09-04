@@ -240,7 +240,7 @@
   "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
   "SpriteIndex": 8}}},
 
-  {"LogName": "御神酒",
+{"LogName": "御神酒",
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries":
@@ -252,7 +252,7 @@
   "Category": -7,
   "Price": 200,
   "Edibility": 50,
-  "IsDrink": false,
+  "IsDrink": true,
   "Buffs": [
 {"Id": "Food",
   "BuffId": null,
@@ -289,6 +289,102 @@
   "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
   "SpriteIndex": 10}}},
 
+{"LogName": "传送图腾",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.warp": 
+{"Name": "Twosmallballs.warp",
+ "DisplayName": "{{i18n:warp.name}}",
+ "Description": "{{i18n:warp.de}}",
+ "Type": "Crafting",
+ "Category": 0,
+ "Price": 20,
+ "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+ "SpriteIndex": 15,
+ "Edibility": -300,
+ "IsDrink": false,
+ "Buff": null,
+ "GeodeDropsDefaultItems": false,
+ "GeodeDrops": null,
+ "ArtifactSpotChances": null,
+ "ContextTags": ["color_brown","not_placeable","totem_item"],//颜色//不可放置//图腾_项目
+ "CustomFields": {}}}},
+
+{"LogName": "传送图腾点",
+  "Action": "EditData",
+  "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+  "Entries": 
+{"Twosmallballs.warp": 
+{"TotemWarp": 
+{"Location": "Mountain",
+"Position": "58, 33"}}}},
+
+{"LogName": "酒心炸弹",
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.bomb":
+{"Name": "Twosmallballs.bomb", 
+  "Displayname": "{{i18n:bomb.name}}",
+  "Description": "{{i18n:bomb.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 2000,
+  "Edibility": -300,
+  "ExcludeFromPerfectionScore": true,
+  "ExcludeFromRandomSale":"true",
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 11}}},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.bomb1":
+{"Name": "Twosmallballs.bomb1", 
+  "Displayname": "{{i18n:bomb.name}}",
+  "Description": "{{i18n:bomb.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 2000,
+  "Edibility": -300,
+  "ExcludeFromPerfectionScore": true,
+  "ExcludeFromRandomSale":"true",
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 12}}},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.bomb2":
+{"Name": "Twosmallballs.bomb2", 
+  "Displayname": "{{i18n:bomb.name}}",
+  "Description": "{{i18n:bomb.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 2000,
+  "Edibility": -300,
+  "ExcludeFromPerfectionScore": true,
+  "ExcludeFromRandomSale":"true",
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 13}}},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries":
+{"Twosmallballs.bomb3":
+{"Name": "Twosmallballs.bomb3", 
+  "Displayname": "{{i18n:bomb.name}}",
+  "Description": "{{i18n:bomb.de}}",
+  "Type": "objects",
+  "Category": 0,
+  "Price": 2000,
+  "Edibility": -300,
+  "ExcludeFromPerfectionScore": true,
+  "ExcludeFromRandomSale":"true",
+  "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+  "SpriteIndex": 14}}},
+
 
 {"LogName": "酿酒",
  "Action": "EditData",
@@ -306,13 +402,15 @@
 {"Id": "{{ModId}}_wineGiver",
  "ItemId": "(O)Twosmallballs.wine",
  "CopyQuality": true}],
-"MinutesUntilReady": 180}}}
+"MinutesUntilReady": 180}}},
 
+{"LogName": "娃娃",
+"Action": "EditData",
+"Target": "Data/Furniture",
+"Entries": {
 
-
-
-
-
+"Twosmallballs.TangYuanDoll": "Twosmallballs.TangYuanDoll/decor/1 1/1 1/1/100/-1/{{i18n:TangYuanDoll.name}}/16/Mods\\Twosmallballs.Twosmallballs\\Objects",
+"Twosmallballs.YuanXiaoDoll": "Twosmallballs.YuanXiaoDoll/decor/1 1/1 1/1/100/-1/{{i18n:YuanXiaoDoll.name}}/17/Mods\\Twosmallballs.Twosmallballs\\Objects"}}
 
 
 ]}

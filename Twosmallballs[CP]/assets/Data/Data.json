@@ -37,8 +37,8 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "Twosmallballsmap.Dongtian",
-  "Tile": {"X": 10,"Y": 10},
+  "Location": "Custom_Twosmallballs.Dongtian",
+  "Tile": {"X": 19,"Y": 7},
   "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
@@ -94,8 +94,8 @@
   "SpawnIfMissing": true,
  "Home": [
 {"Id": "Default",
-  "Location": "Twosmallballsmap.Dongtian",
-  "Tile": {"X": 10,"Y": 11},
+  "Location": "Custom_Twosmallballs.Dongtian",
+  "Tile": {"X": 20,"Y": 7},
   "Direction": "2"}],
   "TextureName": null,
   "Size": {"X": 16,"Y": 32},
