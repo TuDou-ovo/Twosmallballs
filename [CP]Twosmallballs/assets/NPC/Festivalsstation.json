@@ -1,0 +1,390 @@
+{
+  "Changes": [
+    {
+      "LogName": "单数年-复活节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 34 65 down/YuanXiao 35 65 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 30 74 up/YuanXiao 31 74 up",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-复活节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 16 64 right/YuanXiao 16 65 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 24 74 up/YuanXiao 25 74 up",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    },
+    {
+      "LogName": "单数年-花舞节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 7 34 down/YuanXiao 6 34 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 9 31 up/YuanXiao 10 31 up",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-花舞节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 8 27 down/YuanXiao 9 27 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 5 25 right/YuanXiao 5 26 right",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    },
+    {
+      "LogName": "单数年-夏威夷",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 35 11 down/YuanXiao 24 14 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 37 6 down/YuanXiao 38 6 down",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-夏威夷",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 34 7 down/YuanXiao 35 7 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 30 10 right/YuanXiao 30 11 right",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    },
+    {
+      "LogName": "单数年-夜光",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 81 25 down/YuanXiao 82 25 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 13 34 right/YuanXiao 13 35 right",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-夜光",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 81 25 down/YuanXiao 82 25 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 13 34 right/YuanXiao 13 35 right",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    },
+    {
+      "LogName": "单数年-展览会",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 41 72 down/YuanXiao 42 72 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 41 72 down/YuanXiao 42 72 down",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-展览会",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 21 63 right/YuanXiao 21 64 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 21 63 right/YuanXiao 21 64 right",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    },
+    {
+      "LogName": "万圣节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 35 73 left/YuanXiao 34 73 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 35 73 left/YuanXiao 34 73 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    {
+      "LogName": "冰钓节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 61 19 right/YuanXiao 61 20 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 68 24 down/YuanXiao 69 24 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+    {
+      "LogName": "单数年-圣诞节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 27 62 down/YuanXiao 28 62 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 27 62 down/YuanXiao 28 62 down",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "false"
+      }
+    },
+    {
+      "LogName": "偶数年-圣诞节",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Set-Up_additionalCharacters"
+          ],
+          "Value": "TangYuan 31 62 down/YuanXiao 32 62 down",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "MainEvent_additionalCharacters"
+          ],
+          "Value": "TangYuan 31 62 down/YuanXiao 32 62 down",
+          "Delimiter": "/"
+        }
+      ],
+      "When": {
+        "Year |contains=2,4,6,8,10": "true"
+      }
+    }
+  ]
+}

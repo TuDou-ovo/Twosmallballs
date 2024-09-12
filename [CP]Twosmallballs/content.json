@@ -1,0 +1,101 @@
+{
+  "Format": "2.0.0",
+  "RepeatEvents": [
+    27585003,
+    27585004
+  ],
+  "ConfigSchema": {
+    "BirthdayEvents": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Birthday",
+      "Description": "是否开启生日事件，默认开启"
+    },
+    "BirthdaySeason": {
+      "AllowValues": "spring, summer, fall, winter",
+      "Default": "winter",
+      "Section": "Birthday",
+      "Description": "生日事件发生的季节"
+    },
+    "BirthdayDay": {
+      "AllowValues": "1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28",
+      "Default": "15",
+      "Section": "Birthday",
+      "Description": "生日事件发生的日期"
+    }
+    //"TangYuanSprites":
+    //{"AllowValues": "true, false",
+    // "Default": "false",
+    // "Description": "汤圆是否使用年味满勺皮肤，肖像会同步变更，默认不使用"}
+  },
+  "CustomLocations": [
+    {
+      "LogName": "加载地图 洞天",
+      "Name": "Custom_Twosmallballs.Dongtian",
+      "FromMapFile": "assets/Map/Dongtian.tmx"
+    },
+    {
+      "LogName": "加载地图 矿洞",
+      "Name": "Custom_Twosmallballs.cave",
+      "FromMapFile": "assets/Map/cave.tmx"
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "动物",
+      "Action": "Include",
+      "FromFile": "assets/Data/Animals.json,"
+    },
+    {
+      "LogName": "CJB",
+      "Action": "Include",
+      "FromFile": "assets/Data/CJB.json,"
+    },
+    {
+      "LogName": "角色",
+      "Action": "Include",
+      "FromFile": "assets/Data/NPC.json,"
+    },
+    {
+      "LogName": "事件",
+      "Action": "Include",
+      "FromFile": "assets/Events/Events.json,"
+    },
+    {
+      "LogName": "信件",
+      "Action": "Include",
+      "FromFile": "assets/Data/Mail.json,"
+    },
+    {
+      "LogName": "地图",
+      "Action": "Include",
+      "FromFile": "assets/Data/Map.json,"
+    },
+    {
+      "LogName": "物品",
+      "Action": "Include",
+      "FromFile": "assets/Data/Objects.json,"
+    },
+    {
+      "LogName": "商店",
+      "Action": "Include",
+      "FromFile": "assets/Data/Shop.json,"
+    },
+    {
+      "LogName": "背景音乐-归园田兮",
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Guiyuantianxi": {
+          "ID": "Guiyuantianxi",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath:assets/Music/Guiyuantianxi.ogg}}"
+          ],
+          "StreamedVorbis": false,
+          "Looped": true
+        }
+      }
+    }
+  ]
+}

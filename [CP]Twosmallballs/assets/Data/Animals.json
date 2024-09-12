@@ -1,0 +1,180 @@
+{
+    "Changes": [
+        {
+            "LogName": "月兔-商店图标",
+            "Action": "Load",
+            "Target": "Animals/Twosmallballs.rabbitShopIcons",
+            "FromFile": "assets/Objects/rabbitShopIcons.png"
+        },
+        {
+            "LogName": "幼崽-行走图",
+            "Action": "Load",
+            "Target": "Animals/Twosmallballs.rabbitBaby",
+            "FromFile": "assets/Objects/rabbitBaby.png"
+        },
+        {
+            "LogName": "成年体-行走图",
+            "Action": "Load",
+            "Target": "Animals/Twosmallballs.rabbit",
+            "FromFile": "assets/Objects/rabbit.png"
+        },
+        {
+            "LogName": "月兔-幼崽",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Twosmallballs.rabbitBaby": {
+                    "DisplayName": "Twosmallballs.rabbitBaby",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 500,
+                    "SellPrice": 300,
+                    "ShopTexture": "Animals/Twosmallballs.rabbitShopIcons",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "{{i18n:rabbitBaby}}",
+                    "ShopDescription": "{{i18n:rabbitBaby.de}}",
+                    "AlternatePurchaseTypes": [
+                        {
+                            "Condition": null,
+                            "AnimalIds": [
+                                "Twosmallballs.rabbitBaby",
+                                "Twosmallballs.rabbit"
+                            ]
+                        }
+                    ],
+                    "DaysToMature": "4",
+                    "CanGetPregnant": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 2,
+                            "ItemId": "Twosmallballs.rabbithair"
+                        }, 
+                        {
+                            "Id": "Default", 
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "440"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [],
+                    "DaysToProduce": "2",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": null,
+                    "FriendshipForFasterProduce": -1,
+                    "DeluxeProduceMinimumFriendship": 600,
+                    "DeluxeProduceCareDivisor": 1200.0,
+                    "DeluxeProduceLuckMultiplier": 0.0,
+                    "ProfessionForHappinessBoost": 2,
+                    "ProfessionForQualityBoost": 2,
+                    "ProfessionForFasterProduce": -1,
+                    "Sound": "rabbit",
+                    "BabySound": "rabbit",
+                    "Texture": "Animals/Twosmallballs.rabbitBaby",
+                    "HarvestedTexture": "Animals/Twosmallballs.rabbitBaby",
+                    "BabyTexture": "Animals/Twosmallballs.rabbitBaby",
+                    "UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShadowWhenBabySwims": {
+                        "Visible": false
+                    },
+                    "ShadowWhenBaby": {
+                        "Visible": true
+                    },
+                    "ShadowWhenAdultSwims": {
+                        "Visible": false
+                    },
+                    "ShadowWhenAdult": {
+                        "Visible": true
+                    },
+                    "CanSwim": false,
+                    "BabiesFollowAdults": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "月兔",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Twosmallballs.rabbit": {
+                    "DisplayName": "Twosmallballs.rabbit",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": -1,
+                    "SellPrice": 300,
+                    "ShopTexture": "Animals/Twosmallballs.rabbitShopIcons",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": null,
+                    "ShopDisplayName": null,
+                    "ShopDescription": null,
+                    "ShopMissingBuildingDescription": null,
+                    "DaysToMature": "4",
+                    "CanGetPregnant": true,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 2,
+                            "ItemId": "Twosmallballs.rabbithair"
+                        }, 
+                        {
+                            "Id": "Default", 
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "440"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [],
+                    "DaysToProduce": "2",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": null,
+                    "FriendshipForFasterProduce": -1,
+                    "DeluxeProduceMinimumFriendship": 600,
+                    "DeluxeProduceCareDivisor": 1200.0,
+                    "DeluxeProduceLuckMultiplier": 0.0,
+                    "ProfessionForHappinessBoost": 2,
+                    "ProfessionForQualityBoost": 2,
+                    "ProfessionForFasterProduce": -1,
+                    "Sound": "rabbit",
+                    "BabySound": "rabbit",
+                    "Texture": "Animals/Twosmallballs.rabbit",
+                    "HarvestedTexture": "Animals/Twosmallballs.rabbit",
+                    "BabyTexture": "Animals/Twosmallballs.rabbit",
+                    "UseFlippedRightForLeft": true,
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "ShadowWhenBabySwims": {
+                        "Visible": false
+                    },
+                    "ShadowWhenBaby": {
+                        "Visible": true
+                    },
+                    "ShadowWhenAdultSwims": {
+                        "Visible": false
+                    },
+                    "ShadowWhenAdult": {
+                        "Visible": true
+                    },
+                    "CanSwim": false,
+                    "BabiesFollowAdults": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        }
+    ]
+}

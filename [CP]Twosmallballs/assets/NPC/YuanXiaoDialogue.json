@@ -1,0 +1,106 @@
+{
+    "Changes": [
+        {
+            "LogName": "元宵-日常对话",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/YuanXiao",
+            "Entries": {
+                "Introduction": "{{i18n:YuanXiao_Introduction}}",
+                "DumpsterDiveComment": "{{i18n:YuanXiao_DumpsterDiveComment}}",
+                "GreenRain": "{{i18n:YuanXiao_GreenRain}}",
+
+                "MovieInvitation": "{{i18n:YuanXiao_MovieInvitation}}", 
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:YuanXiao_RejectMovieTicket_AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:YuanXiao_RejectMovieTicket_DontWantToSeeThatMovie}}",
+                "RejectMovieTicket": "{{i18n:YuanXiao_RejectMovieTicket}}",
+                "HitBySlingshot": "{{i18n:YuanXiao_HitBySlingshot}}",
+
+                "give_flowersA": "？",
+                "give_flowersB": "？",
+                "rejectNPCA": "？",
+                "rejectNPCB": "？",
+                "reject_two_heartA": "？",
+                "reject_two_heartB": "？",
+                "reject_four_heartA": "？",
+                "reject_four_heartB": "？",
+
+                "AcceptBirthdayGift_Loved": "{{i18n:YuanXiao_AcceptBirthdayGift_Loved}}", 
+                "AcceptBirthdayGift_Liked": "{{i18n:YuanXiao_AcceptBirthdayGift_Liked}}", 
+                "AcceptBirthdayGift_Neutral": "{{i18n:YuanXiao_AcceptBirthdayGift_Neutral}}", 
+                "AcceptBirthdayGift_Disliked": "{{i18n:YuanXiao_AcceptBirthdayGift_Disliked}}", 
+                "AcceptBirthdayGift_Hated": "{{i18n:YuanXiao_AcceptBirthdayGift_Hated}}", 
+                "AcceptGift_(O)StardropTea": "{{i18n:YuanXiao_StardropTea}}", 
+                "AcceptGift_(O)262": "{{i18n:YuanXiao_262}}",
+                "AcceptGift_(O)440": "{{i18n:YuanXiao_262}}",
+                "AcceptGift_(O)286": "{{i18n:YuanXiao_288}}",
+                "AcceptGift_(O)287": "{{i18n:YuanXiao_288}}",
+                "AcceptGift_(O)288": "{{i18n:YuanXiao_288}}",
+
+                "Beach": "{{i18n:YuanXiao_Beach}}",
+                "Custom_Twosmallballs.Dongtian_5_7": "{{i18n:YuanXiao_57}}",
+
+                //"Resort": "{{i18n:YuanXiao_Resort}}",//姜岛
+                //"Resort_Bar": "{{i18n:YuanXiao_Resort_Bar}}",//酒吧
+                //"Resort_Chair": "{{i18n:YuanXiao_Resort_Chair}}",//椅子
+                //"Resort_Dance": "{{i18n:YuanXiao_Resort_Dance}}",//跳舞
+                //"Resort_Entering": "{{i18n:YuanXiao_Resort_Entering}}",//上船
+                //"Resort_Leaving": "{{i18n:YuanXiao_Resort_Leaving}}",//回家
+                //"Resort_Shore": "{{i18n:YuanXiao_Resort_Shore}}",//海边
+                //"Resort_Towel": "{{i18n:YuanXiao_Resort_Towel}}",//毛巾
+                //"Resort_Umbrella": "{{i18n:YuanXiao_Resort_Umbrella}}",//太阳伞
+                //"Resort_Wander": "{{i18n:YuanXiao_Resort_Wander}}",//逛街
+                
+                "spring_1_2": "{{i18n:YuanXiao_spring_1_2}}",
+                "spring_12": "{{i18n:YuanXiao_spring_12}}",
+                "summer_1": "{{i18n:YuanXiao_summer_1}}",
+                "summer_27": "{{i18n:YuanXiao_summer_27}}",
+                "fall_1": "{{i18n:YuanXiao_fall_1}}",
+                "fall_26": "{{i18n:YuanXiao_fall_26}}",
+                "winter_1": "{{i18n:YuanXiao_winter_1}}",
+                "winter_7": "{{i18n:YuanXiao_winter_7}}",
+                "Mon": "{{i18n:YuanXiao_Mon}}",
+                "Mon2": "{{i18n:YuanXiao_Mon2}}",
+                "Mon4": "{{i18n:YuanXiao_Mon4}}",
+                "Mon6": "{{i18n:YuanXiao_Mon6}}",
+                "Mon8": "{{i18n:YuanXiao_Mon8}}",
+                "Mon10": "{{i18n:YuanXiao_Mon10}}",
+                "Tue": "{{i18n:YuanXiao_Tue}}",
+                "Tue2": "{{i18n:YuanXiao_Tue2}}",
+                "Tue4": "{{i18n:YuanXiao_Tue4}}",
+                "Tue6": "{{i18n:YuanXiao_Tue6}}",
+                "Tue8": "{{i18n:YuanXiao_Tue8}}",
+                "Tue10": "{{i18n:YuanXiao_Tue10}}",
+                "Wed": "{{i18n:YuanXiao_Wed}}",
+                "Wed2": "{{i18n:YuanXiao_Wed2}}",
+                "Wed4": "{{i18n:YuanXiao_Wed4}}",
+                "Wed6": "{{i18n:YuanXiao_Wed6}}",
+                "Wed8": "{{i18n:YuanXiao_Wed8}}",
+                "Wed10": "{{i18n:YuanXiao_Wed10}}",
+                "Thu": "{{i18n:YuanXiao_Thu}}",
+                "Thu2": "{{i18n:YuanXiao_Thu2}}",
+                "Thu4": "{{i18n:YuanXiao_Thu4}}",
+                "Thu6": "{{i18n:YuanXiao_Thu6}}",
+                "Thu8": "{{i18n:YuanXiao_Thu8}}",
+                "Thu10": "{{i18n:YuanXiao_Thu10}}",
+                "Fri": "{{i18n:YuanXiao_Fri}}",
+                "Fri2": "{{i18n:YuanXiao_Fri2}}",
+                "Fri4": "{{i18n:YuanXiao_Fri4}}",
+                "Fri6": "{{i18n:YuanXiao_Fri6}}",
+                "Fri8": "{{i18n:YuanXiao_Fri8}}",
+                "Fri10": "{{i18n:YuanXiao_Fri10}}",
+                "Sat": "{{i18n:YuanXiao_Sat}}",
+                "Sat2": "{{i18n:YuanXiao_Sat2}}",
+                "Sat4": "{{i18n:YuanXiao_Sat4}}",
+                "Sat6": "{{i18n:YuanXiao_Sat6}}",
+                "Sat8": "{{i18n:YuanXiao_Sat8}}",
+                "Sat10": "{{i18n:YuanXiao_Sat10}}",
+                "Sun": "{{i18n:YuanXiao_Sun}}",
+                "Sun2": "{{i18n:YuanXiao_Sun2}}",
+                "Sun4": "{{i18n:YuanXiao_Sun4}}",
+                "Sun6": "{{i18n:YuanXiao_Sun6}}",
+                "Sun8": "{{i18n:YuanXiao_Sun8}}",
+                "Sun10": "{{i18n:YuanXiao_Sun10}}"
+            }
+        }
+    ]
+}

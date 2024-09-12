@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "汤圆行程",
+      "Action": "EditData",
+      "Target": "Characters/Schedules/TangYuan",
+      "Entries": {
+        "spring": "610 Custom_Twosmallballs.Dongtian 19 6 sleep/930 Custom_Twosmallballs.Dongtian 19 7 TangYuan_LaiBed/1000 Custom_Twosmallballs.Dongtian 13 12 eat/1100 Town 94 13 2/1500 Custom_Twosmallballs.Dongtian 13 12 eat/1600 Mountain 47 7 2/1800 Custom_Twosmallballs.Dongtian 5 7 0/2100 Custom_Twosmallballs.Dongtian 19 7 sleep",
+        "summer": "610 Custom_Twosmallballs.Dongtian 19 6 sleep/930 Custom_Twosmallballs.Dongtian 19 7 TangYuan_LaiBed/1000 Custom_Twosmallballs.Dongtian 13 12 eat/1100 Town 94 13 2/1500 Custom_Twosmallballs.Dongtian 13 12 eat/1600 Mountain 47 7 2/1800 Custom_Twosmallballs.Dongtian 5 7 0/2100 Custom_Twosmallballs.Dongtian 19 7 sleep",
+        "fall": "610 Custom_Twosmallballs.Dongtian 19 6 sleep/930 Custom_Twosmallballs.Dongtian 19 7 TangYuan_LaiBed/1000 Custom_Twosmallballs.Dongtian 13 12 eat/1100 Town 94 13 2/1500 Custom_Twosmallballs.Dongtian 13 12 eat/1600 Mountain 47 7 2/1800 Custom_Twosmallballs.Dongtian 5 7 0/2100 Custom_Twosmallballs.Dongtian 19 7 sleep",
+        "winter": "610 Custom_Twosmallballs.Dongtian 19 6 sleep/930 Custom_Twosmallballs.Dongtian 19 7 TangYuan_LaiBed/1000 Custom_Twosmallballs.Dongtian 13 12 eat/1100 Town 94 13 2/1500 Custom_Twosmallballs.Dongtian 13 12 eat/1600 Mountain 47 7 2/1800 Custom_Twosmallballs.Dongtian 5 7 0/2100 Custom_Twosmallballs.Dongtian 19 7 sleep",
+        "rain": "610 Custom_Twosmallballs.Dongtian 19 6 sleep/930 Custom_Twosmallballs.Dongtian 19 7 TangYuan_LaiBed/1000 Custom_Twosmallballs.Dongtian 13 12 eat/1100 Custom_Twosmallballs.Dongtian 6 19 TangYuan_cook/1500 Custom_Twosmallballs.Dongtian 13 12 eat/1600 Custom_Twosmallballs.Dongtian 20 13 0/1800 Custom_Twosmallballs.Dongtian 5 7 0/2100 Custom_Twosmallballs.Dongtian 19 7 sleep"
+      }
+    }
+  ]
+}

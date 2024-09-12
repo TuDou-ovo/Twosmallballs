@@ -1,0 +1,12 @@
+{
+    "Name": "两颗小丸子（DLL)",
+    "Author": "土豆",
+    "Version": "1.0.1",
+    "Description": "DLL内容",
+    "UniqueID": "potato.TwosmallballsDLL",
+    "UpdateKeys": [
+        "Nexus:??? "
+    ],
+    "EntryDll": "Twosmallballs.dll",
+    "MinimumApiVersion": "4.0.0"
+}

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="9" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" name="m" tilewidth="16" tileheight="16" tilecount="2560" columns="31">
+  <image source="assets/m.png" width="496" height="1280"/>
+  <tile id="744">
+   <animation>
+    <frame tileid="744" duration="500"/>
+    <frame tileid="744" duration="500"/>
+    <frame tileid="806" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="745">
+   <animation>
+    <frame tileid="745" duration="500"/>
+    <frame tileid="745" duration="500"/>
+    <frame tileid="807" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="746">
+   <animation>
+    <frame tileid="746" duration="500"/>
+    <frame tileid="746" duration="500"/>
+    <frame tileid="808" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="747">
+   <animation>
+    <frame tileid="747" duration="500"/>
+    <frame tileid="747" duration="500"/>
+    <frame tileid="809" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="775">
+   <animation>
+    <frame tileid="775" duration="500"/>
+    <frame tileid="775" duration="500"/>
+    <frame tileid="837" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="776">
+   <animation>
+    <frame tileid="776" duration="500"/>
+    <frame tileid="776" duration="500"/>
+    <frame tileid="838" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="777">
+   <animation>
+    <frame tileid="777" duration="500"/>
+    <frame tileid="777" duration="500"/>
+    <frame tileid="839" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="778">
+   <animation>
+    <frame tileid="778" duration="500"/>
+    <frame tileid="778" duration="500"/>
+    <frame tileid="840" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2561" name="m" tilewidth="16" tileheight="16" tilecount="2560" columns="31">
+  <image source="assets/m.png" width="496" height="1280"/>
+  <tile id="744">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="744" duration="500"/>
+    <frame tileid="744" duration="500"/>
+    <frame tileid="806" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="745">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="745" duration="500"/>
+    <frame tileid="745" duration="500"/>
+    <frame tileid="807" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="746">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="746" duration="500"/>
+    <frame tileid="746" duration="500"/>
+    <frame tileid="808" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="747">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="747" duration="500"/>
+    <frame tileid="747" duration="500"/>
+    <frame tileid="809" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="748">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="749">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="750">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="775">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="775" duration="500"/>
+    <frame tileid="775" duration="500"/>
+    <frame tileid="837" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="776">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="776" duration="500"/>
+    <frame tileid="776" duration="500"/>
+    <frame tileid="838" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="777">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="777" duration="500"/>
+    <frame tileid="777" duration="500"/>
+    <frame tileid="839" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="778">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="778" duration="500"/>
+    <frame tileid="778" duration="500"/>
+    <frame tileid="840" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="779">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="780">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="781">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5121" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="assets/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="333">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="333" duration="500"/>
+    <frame tileid="334" duration="500"/>
+    <frame tileid="335" duration="500"/>
+    <frame tileid="336" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1246">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="1246" duration="500"/>
+    <frame tileid="1271" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1274">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1318">
+   <animation>
+    <frame tileid="1318" duration="500"/>
+    <frame tileid="1319" duration="500"/>
+    <frame tileid="1320" duration="500"/>
+    <frame tileid="1321" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="7096" name="spring_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="assets/spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+  <tile id="902">
+   <animation>
+    <frame tileid="902" duration="500"/>
+    <frame tileid="903" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="918">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="918" duration="500"/>
+    <frame tileid="919" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="934">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="934" duration="500"/>
+    <frame tileid="935" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="9" name="Back" width="9" height="4">
+  <data encoding="base64" compression="zlib">
+   eJz7LcHA8HsQYQArjSat
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="9" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxtzcsJgDAAg+HgyUerIzhAtSM4giO4sOBjDKtVR+h/FTx8BEIgvpXm7Gsx0ooNO0Y2Bxlw4kLEjQcvJja5lQqUqGBgUaPB8PPl6Dv08EgJwRTZ
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="9" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcAAAAkAAB
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Front2" width="9" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcAAAAkAAB
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front2"/>
+</map>

@@ -1,0 +1,101 @@
+{
+    "Changes": [
+        {
+            "LogName": "汤圆-日常对话",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/TangYuan",
+            "Entries": {
+                "Introduction": "{{i18n:TangYuan_Introduction}}", 
+                "DumpsterDiveComment": "{{i18n:TangYuan_DumpsterDiveComment}}", 
+                "GreenRain": "{{i18n:TangYuan_GreenRain}}", 
+
+                "MovieInvitation": "{{i18n:TangYuan_MovieInvitation}}", 
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:TangYuan_RejectMovieTicket_AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:TangYuan_RejectMovieTicket_DontWantToSeeThatMovie}}",
+                "RejectMovieTicket": "{{i18n:TangYuan_RejectMovieTicket}}",
+                "HitBySlingshot": "{{i18n:TangYuan_HitBySlingshot}}",
+
+                "give_flowersA": "？",
+                "give_flowersB": "？",
+                "rejectNPCA": "？",
+                "rejectNPCB": "？",
+                "reject_two_heartA": "？",
+                "reject_two_heartB": "？",
+                "reject_four_heartA": "？",
+                "reject_four_heartB": "？",
+                "AcceptBirthdayGift_Loved": "{{i18n:TangYuan_AcceptBirthdayGift_Loved}}", 
+                "AcceptBirthdayGift_Liked": "{{i18n:TangYuan_AcceptBirthdayGift_Liked}}", 
+                "AcceptBirthdayGift_Neutral": "{{i18n:TangYuan_AcceptBirthdayGift_Neutral}}", 
+                "AcceptBirthdayGift_Disliked": "{{i18n:TangYuan_AcceptBirthdayGift_Disliked}}", 
+                "AcceptBirthdayGift_Hated": "{{i18n:TangYuan_AcceptBirthdayGift_Hated}}", 
+                "AcceptGift_(O)StardropTea": "{{i18n:TangYuan_StardropTea}}", 
+
+                "Beach": "{{i18n:TangYuan_Beach}}",
+
+                //"Resort": "{{i18n:TangYuan_Resort}}",//姜岛
+                //"Resort_Bar": "{{i18n:TangYuan_Resort_Bar}}",//酒吧
+                //"Resort_Chair": "{{i18n:TangYuan_Resort_Chair}}",//椅子
+                //"Resort_Dance": "{{i18n:TangYuan_Resort_Dance}}",//跳舞
+                //"Resort_Entering": "{{i18n:TangYuan_Resort_Entering}}",//上船
+                //"Resort_Leaving": "{{i18n:TangYuan_Resort_Leaving}}",//回家
+                //"Resort_Shore": "{{i18n:TangYuan_Resort_Shore}}",//海边
+                //"Resort_Towel": "{{i18n:TangYuan_Resort_Towel}}",//毛巾
+                //"Resort_Umbrella": "{{i18n:TangYuan_Resort_Umbrella}}",//太阳伞
+                //"Resort_Wander": "{{i18n:TangYuan_Resort_Wander}}",//逛街
+                
+                "spring_1_2": "{{i18n:TangYuan_spring_1_2}}",
+                "spring_12": "{{i18n:TangYuan_spring_12}}",
+                "summer_1": "{{i18n:TangYuan_summer_1}}",
+                "summer_10": "{{i18n:TangYuan_summer_10}}",
+                "fall_1": "{{i18n:TangYuan_fall_1}}",
+                "fall_26": "{{i18n:TangYuan_fall_26}}",
+                "winter_1": "{{i18n:TangYuan_winter_1}}",
+                "winter_7": "{{i18n:TangYuan_winter_7}}",
+                "winter_15": "{{i18n:TangYuan_winter_15}}",
+                "winter_24": "{{i18n:TangYuan_winter_24}}",
+                "Mon": "{{i18n:TangYuan_Mon}}",
+                "Mon2": "{{i18n:TangYuan_Mon2}}",
+                "Mon4": "{{i18n:TangYuan_Mon4}}",
+                "Mon6": "{{i18n:TangYuan_Mon6}}",
+                "Mon8": "{{i18n:TangYuan_Mon8}}",
+                "Mon10": "{{i18n:TangYuan_Mon10}}",
+                "Tue": "{{i18n:TangYuan_Tue}}",
+                "Tue2": "{{i18n:TangYuan_Tue2}}",
+                "Tue4": "{{i18n:TangYuan_Tue4}}",
+                "Tue6": "{{i18n:TangYuan_Tue6}}",
+                "Tue8": "{{i18n:TangYuan_Tue8}}",
+                "Tue10": "{{i18n:TangYuan_Tue10}}",
+                "Wed": "{{i18n:TangYuan_Wed}}",
+                "Wed2": "{{i18n:TangYuan_Wed2}}",
+                "Wed4": "{{i18n:TangYuan_Wed4}}",
+                "Wed6": "{{i18n:TangYuan_Wed6}}",
+                "Wed8": "{{i18n:TangYuan_Wed8}}",
+                "Wed10": "{{i18n:TangYuan_Wed10}}",
+                "Thu": "{{i18n:TangYuan_Thu}}",
+                "Thu2": "{{i18n:TangYuan_Thu2}}",
+                "Thu4": "{{i18n:TangYuan_Thu4}}",
+                "Thu6": "{{i18n:TangYuan_Thu6}}",
+                "Thu8": "{{i18n:TangYuan_Thu8}}",
+                "Thu10": "{{i18n:TangYuan_Thu10}}",
+                "Fri": "{{i18n:TangYuan_Fri}}",
+                "Fri2": "{{i18n:TangYuan_Fri2}}",
+                "Fri4": "{{i18n:TangYuan_Fri4}}",
+                "Fri6": "{{i18n:TangYuan_Fri6}}",
+                "Fri8": "{{i18n:TangYuan_Fri8}}",
+                "Fri10": "{{i18n:TangYuan_Fri10}}",
+                "Sat": "{{i18n:TangYuan_Sat}}",
+                "Sat2": "{{i18n:TangYuan_Sat2}}",
+                "Sat4": "{{i18n:TangYuan_Sat4}}",
+                "Sat6": "{{i18n:TangYuan_Sat6}}",
+                "Sat8": "{{i18n:TangYuan_Sat8}}",
+                "Sat10": "{{i18n:TangYuan_Sat10}}",
+                "Sun": "{{i18n:TangYuan_Sun}}",
+                "Sun2": "{{i18n:TangYuan_Sun2}}",
+                "Sun4": "{{i18n:TangYuan_Sun4}}",
+                "Sun6": "{{i18n:TangYuan_Sun6}}",
+                "Sun8": "{{i18n:TangYuan_Sun8}}",
+                "Sun10": "{{i18n:TangYuan_Sun10}}"
+            }
+        }
+    ]
+}

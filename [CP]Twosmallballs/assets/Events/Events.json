@@ -1,0 +1,143 @@
+// 蛋糕 addObject 5 11 221 Front
+//advancedMove NPC 循环True为开启循环，否为关闭 坐标 坐标 *时间 走走停停
+//----设定NPC的多次移动（比如/advancedMove Robin false 0 3 2 0 0 2 -2 0 0 -2 2 0/ 罗宾就会去坐标（0，3）之后是（2,0）然后（0,2）(-2,0)（0，-2）（2,0）……（True的情况像海莉14心举办的交换蛋糕活动，NPC在转圈圈的那个）
+//烟花changeLocation Twosmallballsmap.CG
+//emote 演员 表情id
+//jump 演员 高度
+//move 演员 x y 面向 true
+//----让指定角色移动到指定位置（一次性只能横向或直向，要斜线移动就重复使用move这个命令）[continue]是默认（空白）的话，角色会暂停事件，如果是true，角色会进行非同步移动并同时进行其他事件命令 情况为true，我们的角色正在移动时，我们可以输入别的命令，（如山姆6心事件，村长走路遇到山姆玩滑板））】
+//pause 400
+//----暂停游戏，时长单位是毫秒（用于表示动画使用，比如移动角色，播放角色动作等等）{{i18n:}}
+//message \"{{i18n:}}\"
+//----在指定角色头上出现对话泡泡
+//speak TangYuan \"{{i18n:}}\"
+//speak YuanXiao \"{{i18n:}}\"
+//speak George \"{{i18n:}}\"
+//textAboveHead TangYuan \"{{i18n:}}\"
+//textAboveHead YuanXiao \"{{i18n:}}\"
+//textAboveHead 演员 \"{{i18n:}}\"
+//textAboveHead 演员 \"{{i18n:}}\"
+//textAboveHead 演员 \"{{i18n:}}\"
+//i Twosmallballs.1
+{
+    "Changes": [
+        {
+            "LogName": "生日-元宵",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Twosmallballs.Dongtian",
+            "FromFile": "assets/Events/BirthdayEvents.Dongtian.json",
+            "When": {
+                "Season": "{{BirthdaySeason}}",
+                "Day": "{{BirthdayDay}}",
+                "Year |contains=2,4,6,8,10": "false"
+            }
+        },
+        {
+            "LogName": "生日-汤圆",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_Twosmallballs.Dongtian",
+            "FromFile": "assets/Events/BirthdayEvents.Dongtian1.json",
+            "When": {
+                "Season": "{{BirthdaySeason}}",
+                "Day": "{{BirthdayDay}}",
+                "Year |contains=2,4,6,8,10": "true"
+            }
+        },
+        {
+            "LogName": "生日前段-偶数年",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "27585001/t 600 1200": "continue/64 17/farmer -111 -111 2 TangYuan -111 -111 1 YuanXiao -111 -111 1/skippable/warp TangYuan 64 18/warp YuanXiao 65 18/warp farmer 64 14 /pause 600/ move farmer 0 1 2/pause 600/jump YuanXiao 1/pause 600/textAboveHead TangYuan \"{{i18n:27585001.1}}\"/pause 600/message \"{{i18n:27585001.2}}\"/speak TangYuan \"{{i18n:27585001.3}}\"/speak YuanXiao \"{{i18n:27585001.4}}\"/speak TangYuan \"{{i18n:27585001.5}}\"/speak YuanXiao \"{{i18n:27585001.6}}\"/speak TangYuan \"{{i18n:27585001.7}}\"/pause 600/textAboveHead YuanXiao \"{{i18n:27585001.8}}\"/pause 600/end"
+            },
+            "When": {
+                "Season": "{{BirthdaySeason}}",
+                "Day": "{{BirthdayDay}}",
+                "BirthdayEvents": "true",
+                "Year |contains=2,4,6,8,10": "false"
+            }
+        },
+        {
+            "LogName": "生日前段-单数年",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "27585003/t 600 1200": "continue/64 17/farmer -111 -111 2 TangYuan -111 -111 1 YuanXiao -111 -111 1/skippable/warp YuanXiao 64 18/warp TangYuan 65 18/warp farmer 64 14 /pause 600/ move farmer 0 1 2/pause 600/jump YuanXiao 1/pause 600/textAboveHead YuanXiao \"{{i18n:27585003.1}}\"/pause 600/message \"{{i18n:27585003.2}}\"/speak YuanXiao \"{{i18n:27585003.3}}\"/speak TangYuan \"{{i18n:27585003.4}}\"/speak YuanXiao \"{{i18n:27585003.5}}\"/speak TangYuan \"{{i18n:27585003.6}}\"/speak YuanXiao \"{{i18n:27585003.7}}\"/pause 600/textAboveHead TangYuan \"{{i18n:27585003.8}}\"/pause 600/end"
+            },
+            "When": {
+                "Season": "{{BirthdaySeason}}",
+                "Day": "{{BirthdayDay}}",
+                "BirthdayEvents": "true",
+                "Year |contains=2,4,6,8,10": "true"
+            }
+        },
+        {
+            "LogName": "剧情-小镇",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "27585007/t 600 1200": "continue/59 65/George 1000 1000 3 TangYuan 66 65 2 YuanXiao 66 66 1/skippable/warp George 57 64/pause 600/move George 0 1 2/end"
+            },
+            "When": {}
+        },
+        {
+            "LogName": "剧情-秘密森林-原版",
+            "Action": "EditData",
+            "Target": "Data/Events/woodsTheme",
+            "Entries": {
+                "27585005/t 2000 2600": "continue/10 10/TangYuan 66 65 2 YuanXiao 66 66 1/skippable/end"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "剧情-秘密森林-sve",
+            "Action": "EditData",
+            "Target": "Data/Events/woodsTheme",
+            "Entries": {
+                "27585006/t 2000 2600": "continue/10 10/TangYuan 66 65 2 YuanXiao 66 66 1/skippable/end"
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "剧情-煤炭森林",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "27585006/t 2000 2600": "continue/10 10/George 1000 1000 3 TangYuan 66 65 2 YuanXiao 66 66 1/skippable/end"
+            },
+            "When": {}
+        },
+        {
+            "LogName": "剧情-沙滩",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "27585006/t 2000 2600": "continue/10 10/TangYuan 66 65 2 YuanXiao 66 66 1/skippable/end"
+            },
+            "When": {}
+        },
+        {
+            "LogName": "剧情-乔治家",
+            "Action": "EditData",
+            "Target": "Data/Events/JoshHouse",
+            "Entries": {
+                "27585006/t 2000 2600": "continue/10 10/George 1000 1000 3 TangYuan 66 65 2 YuanXiao 66 66 1/skippable/warp George 57 64/pause 600/move George 0 1 2/end"
+            },
+            "When": {}
+        },
+        {
+            "LogName": "剧情-山上",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "27585006/t 2000 2600": "continue/10 10/TangYuan 66 65 2 YuanXiao 66 66 1/skippable/end"
+            },
+            "When": {}
+        },
+
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "27585002/e 27595001/t 1200 2400": "continue/10 10/farmer 10 10 2 TangYuan 11 11 2 YuanXiao 10 11 2/skippable/addObject 5 11 221 Buildings/pause 600/speak YuanXiao \"{{i18n:27585002.1}}\"/speak TangYuan \"{{i18n:27585002.2}}\"/pause 600/message \"{{i18n:27585002.3}}\"/pause 600/speak TangYuan \"{{i18n:27585002.4}}\"/pause 600/textAboveHead YuanXiao \"{{i18n:27585002.5}}\"/pause 600/speak YuanXiao \"{{i18n:27585002.6}}\"/question fork1 \"{{i18n:27585002.7}}#{{i18n:27585002.8}}#{{i18n:27585002.9}}\"/fork 27585002_2/pause 600/speak YianXiao \"{{i18n:27585002_1}}\"/pause 600/switchEvent 27585002_end",
+    "27585002_2": "pause 600/speak YuanXiao \"{{i18n:27585002_2}}\"/switchEvent 27585002_end",
+    "27585002_end": "pause 600/speak YuanXiao \"{{i18n:27585002.10}}\"/pause 600/textAboveHead TangYuan \"{{i18n:27585002.12}}\"/pause 600/message \"{{i18n:27585002.13}}\"/pause 600/speak TangYuan \"{{i18n:27585002.14}}\"/end"
+}
