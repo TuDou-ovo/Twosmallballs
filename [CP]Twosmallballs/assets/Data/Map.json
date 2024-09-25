@@ -18,17 +18,17 @@
       "Action": "EditMap",
       "Target": "Maps/Mountain",
       "AddWarps": [
-        "64 32 Custom_Twosmallballs.Dongtian 11 6",
-        "64 33 Custom_Twosmallballs.Dongtian 12 6"
+        "64 32 Custom_TwosmallballsDongtian 11 6",
+        "64 33 Custom_TwosmallballsDongtian 12 6"
       ],
       "MapProperties": {
-        "NPCWarp": "64 32 Custom_Twosmallballs.Dongtian 11 6 64 33 Custom_Twosmallballs.Dongtian 12 6"
+        "NPCWarp": "64 32 Custom_TwosmallballsDongtian 11 6"
       }
     },
     {
       "LogName": "洞天-传送点",
       "Action": "EditMap",
-      "Target": "Maps/Custom_Twosmallballs.Dongtian",
+      "Target": "Maps/Custom_TwosmallballsDongtian",
       "AddWarps": [
         "0 0 Mountain 58 33"
       ],

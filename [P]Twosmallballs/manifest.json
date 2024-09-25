@@ -1,0 +1,19 @@
+{
+    "Name": "两颗小丸子[P]",
+    "Author": "土豆",
+    "Version": "1.0.0",
+    "Description": "小丸子的高清肖像包",
+    "UniqueID": "potato.Twosmallballs.P",
+    "UpdateKeys": [
+        "Nexus: 28074"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Platonymous.Portraiture"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Platonymous.Portraiture",
+            "IsRequired": true
+        }
+    ]
+}

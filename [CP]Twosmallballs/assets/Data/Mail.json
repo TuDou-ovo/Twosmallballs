@@ -6,29 +6,10 @@
       "Target": "Data/mail",
       "Entries": {
         "spring_1_1": "{{i18n:spring_1_1}}",
-        "27585050": "{{i18n:27585050}}"
-      }
-    },
-    {
-      "LogName": "信件",
-      "Action": "EditData",
-      "Target": "Data/mail",
-      "Entries": {
-        "spring_12_1": "{{i18n:spring_12_1}}"
-      },
-      "When": {
-        "PlayerGender": "Female"
-      }
-    },
-    {
-      "LogName": "信件",
-      "Action": "EditData",
-      "Target": "Data/mail",
-      "Entries": {
-        "spring_12_1": "{{i18n:spring_12_1.1}}"
-      },
-      "When": {
-        "PlayerGender": "male"
+        "spring_12_1": "{{i18n:spring_12_1}}",
+        "27585050": "{{i18n:27585050}}",
+        "27585051": "{{i18n:27585051}}",
+        "27585052": "{{i18n:27585052}}"
       }
     }
   ]

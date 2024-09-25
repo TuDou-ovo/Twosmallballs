@@ -1,0 +1,74 @@
+TangYuan and YuanXiao HD Portraits
+
+1.0.0
+
+Tu_Dou
+
+为我的另一个模组所制作的高清肖像包，安装即可使用
+The high-definition portrait package made for my other mod, can be used immediately after installation
+
+不需要999或者HD 
+No need for 999 or HD
+
+使用前置模组 更方便管理的高清肖像 https://www.nexusmods.com/stardewvalley/mods/26029
+Use front-end module *HD Portraiture Plus*
+
+--是小火做的那个模组 我不确定叫它这个中文名对不对 但是写的时候顺手就打上了(
+--既然都用了小火的模组了也推推 *小火管理器* 非常好的星露谷模组管理器~ https://smallfire.cn/tools/ 
+--b站搜 *程序员小火* 即可了解更多呢喵~  https://space.bilibili.com/1794199
+
+
+--------------------------------------------------------------------------------------------------------
+
+Two small balls
+
+Tu_Dou
+
+来自食物语的汤圆和混汤酒酿元宵
+Characters from Food Story TangYuan&YuanXiao
+
+
+英文介绍请往下翻阅
+Please continue reading the English introduction
+
+包含两位新的不可婚角色，以及部分相关物品，是同人向作品，详细攻略在文件夹内可见
+
+角色的家位置在山上，往右走的湖面上
+
+内置了高清肖像
+使用前置模组 *HD肖像* 但它还没更新1.6版本 https://www.nexusmods.com/stardewvalley/mods/10971
+使用前置模组 *高清肖像* 复制文件内的肖像使用 https://www.nexusmods.com/stardewvalley/mods/999
+
+或者可以选择
+下载 *额外的肖像包文件* 
+
+模组持续更新中，因为制作只有我一个人，所以可能会有我测试不到的bug，希望随时反馈我会尽快修复...！
+模组评论区或者我的 *bilibili* 账号 *GitHub* 网站 的反馈我都可以收到 
+https://space.bilibili.com/437874639   https://github.com/TuDou-ovo/Twosmallballs
+
+最后，感谢你的下载和喜欢，我很荣幸~
+
+——以下是机翻的上文，虽然我也不知道实际意义是什么(目移
+
+-----------------------------------------------------------
+
+Below are English annotations
+Because the original work is in Chinese, I will mainly use Chinese
+
+It contains two new unmarried characters and some related items, and is a fan oriented work. Detailed guides can be found in the folder
+
+The character's home is located on a mountain, on the lake to the right
+
+Built in high-definition portrait
+Use front-end module *HD Portraits*, but it hasn't been updated to version 1.6 yet
+Use front-end module *Portraiture*, Copy portraits from files for use
+
+Alternatively, you can choose
+download *TangYuan&YuanXiao HD Portraits*
+
+The module is continuously being updated, and as I am the only one in charge of production, there may be bugs that I cannot test. I hope to receive feedback at any time and I will fix them as soon as possible!
+I can receive feedback from the mod comment section or my * bilibili * account * Github * website
+
+Finally, thank you for downloading and liking it. I am honored~
+
+——The following is a translated version of the previous text, although I am not sure of its actual meaning

@@ -56,9 +56,9 @@
                             "Condition": null,
                             "MinimumFriendship": 2,
                             "ItemId": "Twosmallballs.rabbithair"
-                        }, 
+                        },
                         {
-                            "Id": "Default", 
+                            "Id": "Default",
                             "Condition": null,
                             "MinimumFriendship": 0,
                             "ItemId": "440"
@@ -131,9 +131,9 @@
                             "Condition": null,
                             "MinimumFriendship": 2,
                             "ItemId": "Twosmallballs.rabbithair"
-                        }, 
+                        },
                         {
-                            "Id": "Default", 
+                            "Id": "Default",
                             "Condition": null,
                             "MinimumFriendship": 0,
                             "ItemId": "440"

@@ -1,7 +1,0 @@
-{
-    "27585004/e 27595003/t 1200 2400": "continue/10 10/farmer 10 10 2 TangYuan 11 11 2 YuanXiao 10 11 2/skippable/addObject 5 11 221 Buildings/pause 600/speak TangYuan \"{{i18n:27585004.1}}\"/speak YuanXiao \"{{i18n:27585004.2}}\"/pause 600/message \"{{i18n:27585004.3}}\"/pause 600/speak YuanXiao \"{{i18n:27585004.4}}\"/pause 600/speak TangYuan \"{{i18n:27585004.5}}\"/pause 600/question fork1 \"{{i18n:27585004.6}}#{{i18n:27585004.7}}#{{i18n:27585004.8}}\"/fork 27585004_2/pause 600/speak TangYuan \"{{i18n:27585004_1}}\"/pause 600/switchEvent 27585004_3",
-    "27585004_2": "pause 600/speak TangYuan \"{{i18n:27585004_2}}\"/switchEvent 27585004_3",
-    "27585004_3": "pause 600/speak TangYuan \"{{i18n:27585004.9}}\"/question fork1 \"{{i18n:27585004.10}}#{{i18n:27585004.11}}#{{i18n:27585004.12}}\"/fork 27585004_4/pause 600/speak TangYuan \"{{i18n:27585004_3}}\"/pause 600/switchEvent 27585004_end",
-    "27585004_4": "pause 600/speak TangYuan \"{{i18n:27585004_4}}\"/switchEvent 27585004_end",
-    "27585004_end": "pause 600/speak TangYuan \"{{i18n:27585004.13}}\"/pause 600/message \"{{i18n:27585004.14}}\"/pause 600/speak YuanXiao \"{{i18n:27585004.15}}\"/pause 600/speak TangYuan \"{{i18n:27585004.16}}\"/pause 600/message \"{{i18n:27585004.17}}\"/end"
-}

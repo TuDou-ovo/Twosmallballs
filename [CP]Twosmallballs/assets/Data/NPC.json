@@ -40,7 +40,7 @@
           "Home": [
             {
               "Id": "Default",
-              "Location": "Custom_Twosmallballs.Dongtian",
+              "Location": "Custom_TwosmallballsDongtian",
               "Tile": {
                 "X": 19,
                 "Y": 7
@@ -110,7 +110,7 @@
           "Home": [
             {
               "Id": "Default",
-              "Location": "Custom_Twosmallballs.Dongtian",
+              "Location": "Custom_TwosmallballsDongtian",
               "Tile": {
                 "X": 20,
                 "Y": 7
@@ -157,6 +157,11 @@
       }
     },
     {
+      "Action": "Load",
+      "Target": "Characters/Slime5,Characters/Slime4,Characters/Slime3,Characters/Slime2,Characters/Slime1",
+      "FromFile": "assets/Sprites/5.png"
+    },
+    {
       "LogName": "汤圆-行走图",
       "Action": "Load",
       "Target": "Characters/TangYuan",
@@ -176,6 +181,24 @@
       "Target": "Characters/YuanXiao",
       "FromFile": "assets/Sprites/YuanXiao.png"
     },
+    //  {
+    //     "LogName": "乔治-行走图",
+    //    "Action": "Load",
+    //    "Target": "Characters/George",
+    //    "FromFile": "assets/Sprites/George.png",
+    //    "When": {
+    //      "HasSeenEvent|contains=27585015": true
+    //     }
+    //   },
+    // {
+    //   "LogName": "乔治-冬日行走图",
+    //  "Action": "Load",
+    //  "Target": "Characters/George",
+    //  "FromFile": "assets/Sprites/George_Winter.png",
+    //   "When": {
+    //      "HasSeenEvent|contains=27585015": true
+    //}
+    ///  },
     {
       "LogName": "汤圆-肖像",
       "Action": "Load",
@@ -201,6 +224,24 @@
         "HasMod |contains=tlitookilakin.HDPortraits": false
       }
     },
+    //   {
+    //   "LogName": "乔治-肖像",
+    //   "Action": "Load",
+    //  "Target": "Portraits/George",
+    //  "FromFile": "assets/Portraits/George.png",
+    //  "When": {
+    //    "HasSeenEvent|contains=27585015": true
+    //  }
+    // },
+    //{
+    //   "LogName": "乔治-冬日肖像",
+    //    "Action": "Load",
+    //    "Target": "Portraits/George",
+    //   "FromFile": "assets/Portraits/George_Winter.png",
+    //   "When": {
+    //     "HasSeenEvent|contains=27585015": true
+    //    }
+    //  },
     {
       "LogName": "肖像-尺寸",
       "Action": "Load",
@@ -302,6 +343,15 @@
     //  "Action": "EditData",
     //  "Target": "Data/EngagementDialogue",
     //  "Entries": {"TangYuanRoommate0": "{{i18n:TangYuan.Roommate0}}", "TangYuanRoommate1": "{{i18n:TangYuan.Roommate1}}", "YuanXiaoRoommate0": "{{i18n:YuanXiao.Roommate0}}", "YuanXiaoRoommate1": "{{i18n:YuanXiao.Roommate1}}"}},
+    //{
+    //  "LogName": "对话-乔治",
+    //  "Action": "EditData",
+    //  "Target": "Characters/Dialogue/George",
+    //  "Entries": {
+    //    "Wed8": "{{i18n:George.Wed8}}",
+    //    "Tue10": "{{i18n:George.Tue10}}"
+    //  }
+    // },
     {
       "LogName": "汤圆-电影零食",
       "Action": "EditData",

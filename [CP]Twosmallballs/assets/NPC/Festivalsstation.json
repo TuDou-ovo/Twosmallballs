@@ -39,7 +39,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "TangYuan 16 64 right/YuanXiao 16 65 right",
+          "Value": "TangYuan 21 70 right/YuanXiao 21 71 right",
           "Delimiter": "/"
         },
         {
@@ -95,7 +95,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "TangYuan 8 27 down/YuanXiao 9 27 down",
+          "Value": "TangYuan 14 34 down/YuanXiao 15 34 down",
           "Delimiter": "/"
         },
         {
@@ -104,7 +104,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "TangYuan 5 25 right/YuanXiao 5 26 right",
+          "Value": "TangYuan 5 24 right/YuanXiao 5 25 right",
           "Delimiter": "/"
         }
       ],
@@ -160,7 +160,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "TangYuan 30 10 right/YuanXiao 30 11 right",
+          "Value": "TangYuan 19 7 right/YuanXiao 19 8 right",
           "Delimiter": "/"
         }
       ],
@@ -263,7 +263,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "TangYuan 21 63 right/YuanXiao 21 64 right",
+          "Value": "TangYuan 21 70 right/YuanXiao 21 64 right",
           "Delimiter": "/"
         },
         {
@@ -272,7 +272,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "TangYuan 21 63 right/YuanXiao 21 64 right",
+          "Value": "TangYuan 21 70 right/YuanXiao 21 71 right",
           "Delimiter": "/"
         }
       ],
@@ -291,7 +291,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "TangYuan 35 73 left/YuanXiao 34 73 right",
+          "Value": "TangYuan 36 73 left/YuanXiao 34 73 right",
           "Delimiter": "/"
         },
         {
@@ -300,7 +300,7 @@
             "Entries",
             "MainEvent_additionalCharacters"
           ],
-          "Value": "TangYuan 35 73 left/YuanXiao 34 73 right",
+          "Value": "TangYuan 36 73 left/YuanXiao 35 73 right",
           "Delimiter": "/"
         }
       ]
@@ -316,7 +316,7 @@
             "Entries",
             "Set-Up_additionalCharacters"
           ],
-          "Value": "TangYuan 61 19 right/YuanXiao 61 20 right",
+          "Value": "TangYuan 61 18 right/YuanXiao 61 19 right",
           "Delimiter": "/"
         },
         {
