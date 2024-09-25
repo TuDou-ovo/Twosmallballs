@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="39">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="39">
  <properties>
   <property name="Music" value="Guiyuantianxi"/>
+  <property name="NightTiles" value="Buildings 14 9 229  Buildings 9 9 228 Front 14 7 167 Front 14 8 198 Front 9 7 166 Front 9 8 197"/>
   <property name="Warp" value="7 17 Mountain 10 12"/>
  </properties>
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">

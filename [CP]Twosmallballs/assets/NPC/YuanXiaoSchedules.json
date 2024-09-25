@@ -5,8 +5,8 @@
       "Action": "EditData",
       "Target": "Characters/Schedules/YuanXiao",
       "Entries": {
-        "spring": "610 Custom_TwosmallballsDongtian 20 6 2/800 Custom_TwosmallballsDongtian 14 19 3/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 Town 24 10 2/1800 Mountain 66 22 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3",
-        "rain": "610 Custom_TwosmallballsDongtian 20 6 2/800 Custom_TwosmallballsDongtian 14 19 3/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 Custom_TwosmallballsDongtian 6 11 1/1800 Custom_TwosmallballsDongtian 8 6 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3"
+        "spring": "610 Custom_TwosmallballsDongtian 20 6 2/730 Custom_TwosmallballsDongtian 14 19 1/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 Town 24 10 2/1800 Mountain 66 22 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3",
+        "rain": "610 Custom_TwosmallballsDongtian 20 6 2/730 Custom_TwosmallballsDongtian 14 19 1/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 Custom_TwosmallballsDongtian 6 11 1/1800 Custom_TwosmallballsDongtian 8 6 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3"
       }
     },
     {
@@ -14,7 +14,7 @@
       "Action": "EditData",
       "Target": "Characters/Schedules/YuanXiao",
       "Entries": {
-        "Fri": "610 Custom_TwosmallballsDongtian 20 6 2/800 Custom_TwosmallballsDongtian 14 19 3/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 AdventureGuild 7 11 3/1800 Mountain 66 22 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3"
+        "Fri": "610 Custom_TwosmallballsDongtian 20 6 2/730 Custom_TwosmallballsDongtian 14 19 1/1000 Custom_TwosmallballsDongtian 10 12 eat/1100 Town 93 13 2/1500 Custom_TwosmallballsDongtian 10 12 eat/1600 AdventureGuild 7 11 3/1800 Mountain 66 22 YuanXiao_bomb/2200 Custom_TwosmallballsDongtian 20 7 2/2500 Custom_TwosmallballsDongtian 10 12 3"
       },
       "When": {
         "HasSeenEvent": "27585006"

@@ -1,0 +1,16 @@
+{
+    "Name": "福禄满堂阁",
+    "Author": "土豆",
+    "Version": "1.0.0",
+    "Description": "手游食物语（现为食物语陪伴版）的家具",
+    "UniqueID": "potato.FuLuManTang",
+    "MinimumApiVersion": "4.0",
+    "MinimumGameVersion": "1.6",
+    "UpdateKeys": [
+        "Nexus:"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "leroymilo.FurnitureFramework",
+        "MinimumVersion": "2.0.0"
+    }
+}

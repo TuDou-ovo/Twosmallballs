@@ -115,7 +115,15 @@
  </tileset>
  <tileset firstgid="2481" name="spring_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source="assets/spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+  <tile id="886">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
   <tile id="902">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
    <animation>
     <frame tileid="902" duration="500"/>
     <frame tileid="903" duration="500"/>
@@ -195,7 +203,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="9" height="4">
   <data encoding="base64" compression="zlib">
-   eJxtzcsNggAQBNANXEB+ZXBAuVICJdC1QhkKiiXw7rDJyySTSbat4nTPJOLFzMJo85YfVja+/Nj5M9lkaUTOjYKSipqG4eJXp7/zoOcApjQNHQ==
+   eJxtzcsJgwAQBNBFL5r4KUTN1RJSgl37KcNEoyX47nHhMTAMbF/G341JxMTMwttmlR++bOz8ODgZbLI0IufBk4KSipr+5lejb+l4cQGvNA0t
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>

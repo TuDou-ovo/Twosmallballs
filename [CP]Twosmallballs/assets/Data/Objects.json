@@ -20,9 +20,9 @@
       "Action": "EditData",
       "Target": "Data/CookingRecipes",
       "Entries": {
-        "TangYuan.CookingRecipes": "245 2 247 1/10 10/TangYuan.CookingRecipes/default/{{i18n:TangYuan.CookingRecipes.name}}",
-        "YuanXiao.CookingRecipes": "245 2 340 1/10 10/YuanXiao.CookingRecipes/default/{{i18n:YuanXiao.CookingRecipes.name}}",
-        "Baozi.CookingRecipes": "Twosmallballs.rabbithair 1 245 2/10 10/Baozi.CookingRecipes/default/{{i18n:Baozi.CookingRecipes.name}}"
+        "TangYuan.CookingRecipes": "245 2 247 1/10 10/TangYuan.Objects/default/{{i18n:TangYuan.CookingRecipes.name}}",
+        "YuanXiao.CookingRecipes": "245 2 340 1/10 10/YuanXiao.Objects/default/{{i18n:YuanXiao.CookingRecipes.name}}",
+        "Baozi.CookingRecipes": "Twosmallballs.rabbithair 1 245 2/10 10/Twosmallballs.Baozi/default/{{i18n:Baozi.CookingRecipes.name}}"
       }
     },
     {
@@ -346,48 +346,7 @@
         }
       }
     },
-    {
-      "LogName": "传送图腾",
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "Entries": {
-        "Twosmallballs.warp": {
-          "Name": "Twosmallballs.warp",
-          "DisplayName": "{{i18n:warp.name}}",
-          "Description": "{{i18n:warp.de}}",
-          "Type": "Crafting",
-          "Category": 0,
-          "Price": 20,
-          "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
-          "SpriteIndex": 15,
-          "Edibility": -300,
-          "IsDrink": false,
-          "Buff": null,
-          "GeodeDropsDefaultItems": false,
-          "GeodeDrops": null,
-          "ArtifactSpotChances": null,
-          "ContextTags": [
-            "color_brown",
-            "not_placeable",
-            "totem_item"
-          ],
-          "CustomFields": {}
-        }
-      }
-    },
-    {
-      "LogName": "传送图腾点",
-      "Action": "EditData",
-      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-      "Entries": {
-        "Twosmallballs.warp": {
-          "TotemWarp": {
-            "Location": "Mountain",
-            "Position": "58, 33"
-          }
-        }
-      }
-    },
+
     {
       "LogName": "娃娃",
       "Action": "EditData",

@@ -27,6 +27,22 @@ Tu_Dou
 来自食物语的汤圆和混汤酒酿元宵
 Characters from Food Story TangYuan&YuanXiao
 
+1.1.0 更新日志
+1.1.0 Update log
+修复了部分因为开启了SVE而出现的事件错误
+Fixed some event errors caused by enabling SVE
+修复了食物不能制作的问题
+Fixed the issue of food not being able to be made
+修复了像素肖像的一些小错误
+Fixed some minor errors in pixel portraits
+修复了部分文本错别字
+Fixed some text typos
+删掉了一个测试物品
+Deleted a test item
+优化了部分剧情表现，让它们看起来更流畅了一点
+Optimized some plot performances to make them look smoother
+
+
 
 英文介绍请往下翻阅
 Please continue reading the English introduction
@@ -72,3 +88,46 @@ I can receive feedback from the mod comment section or my * bilibili * account *
 Finally, thank you for downloading and liking it. I am honored~
 
 ——The following is a translated version of the previous text, although I am not sure of its actual meaning
+
+    {
+      "LogName": "传送图腾",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "Twosmallballs.warp": {
+          "Name": "Twosmallballs.warp",
+          "DisplayName": "{{i18n:warp.name}}",
+          "Description": "{{i18n:warp.de}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": 20,
+          "Texture": "Mods/Twosmallballs.Twosmallballs/Objects",
+          "SpriteIndex": 15,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": null,
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "ContextTags": [
+            "color_brown",
+            "not_placeable",
+            "totem_item"
+          ],
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "LogName": "传送图腾点",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "Entries": {
+        "Twosmallballs.warp": {
+          "TotemWarp": {
+            "Location": "Mountain",
+            "Position": "58, 33"
+          }
+        }
+      }
+    },
