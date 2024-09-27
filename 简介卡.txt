@@ -20,31 +20,6 @@ Use front-end module *HD Portraiture Plus*
 
 --------------------------------------------------------------------------------------------------------
 
-Fu Lu Man Tang
-*Furniture Framework*Content Patcher*
-
-Tu_Dou
-
-一套国风家具
-A set of Chinese style furniture
-
-
-应要拆出来的单独模组，没有全部画完原作的东西，后面会补
-The individual modules that should be dismantled have not been fully drawn from the original work, and will be supplemented later
-
-家具目录在木匠那里，免费的
-The furniture catalog is at the carpenter's place, free of charge
-
-壁纸和地板在原版目录里面
-Wallpaper and flooring are in the original catalog
-
-床能用，贴图问题有点卡脚，这个不好改，因为床是比正常尺寸大的
-The bed can be used, but the texture issue is a bit stuck. It's not easy to change because the bed is larger than the normal size
-
-地板放上去错位是FF的问题，睡一觉就好了
-The misalignment of the floor is an issue with FF, just take a nap and it will be fine
---------------------------------------------------------------------------------------------------------
-
 Two small balls
 
 Tu_Dou
